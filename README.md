@@ -19,7 +19,7 @@ Public repo for CSCI-E71 group project
 **Raul Pulido, Developer**
 
 ## Stakeholders:
-### 1. Cryptocurrency Investors, specifically, with at least 1k in the market
+### 1. Cryptocurrency Investors, specifically, with at least 1k in the market (Example: Corey Gibson)
 ### 2. Blockchain Enthusiasts, people who love and enjoy the technical powers of blockchain
 ### 3. Casual Investors, specifically, people with little knowledge and less than 1k in the market
 
