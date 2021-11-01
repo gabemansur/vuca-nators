@@ -11,8 +11,9 @@ Public repo for CSCI-E71 group project
 ![image](https://user-images.githubusercontent.com/41925616/139510110-b3b94910-9c8a-4cf1-bfb4-2df51602b970.png)
 
 ## Persona- Corey Gibson (His real name)
-![image](https://user-images.githubusercontent.com/65990764/139624054-ff016165-e31b-4b1d-9188-90c0e639c755.png)
+![image](https://user-images.githubusercontent.com/65990764/139624331-da912d5b-2341-4a1e-8ce2-805027d8e77d.png)
 ![image](https://user-images.githubusercontent.com/65990764/139624081-3b11c9fd-277d-48a9-bead-34b4fd5c5bd7.png)
+
 Image Source: https://www.topaccountingdegrees.org/faq/what-is-a-chartered-accountant/
 
 ## Team Definition of Ready
