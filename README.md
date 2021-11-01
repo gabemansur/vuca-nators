@@ -20,6 +20,12 @@ Raul Pulido, Developer
 
 Image Source: https://www.topaccountingdegrees.org/faq/what-is-a-chartered-accountant/
 
+## Backlog Ordering
+
+We have ordered the backlog items so that the first ones are infrastructure tasks that will need to be in place before development can begin (setting up boilerplate code, a server, etc.).
+
+Next, we've scheduled the items that will give us a very minimal first iteration of the app. Then, we've ordered the various features we'd like to add, in rough order of importance/value.
+
 ## Team Definition of Ready
 
 *Before work can be started on a ticket, it must:*
