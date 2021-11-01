@@ -50,10 +50,6 @@ Next, we've scheduled the items that will give us a very minimal first iteration
 #### <li> We stored our product backlog in Jira. The Professor and TA have been given access.</li>
 #### <li> [JIRA-URL](https://vuca-nators.atlassian.net/jira/software/projects/FT/boards/1/backlog) </li>
 
-### Ordering the Backlog: <br/>
-#### <li> We ordered the product backlog based on dependencies among the user stories. If one user story relied on the complete development of another user story then we would prioritize the one that did not rely on the other. </li>
-
-
 ### Estimating the Backlog: <br/>
 #### <li> The developers all contributed to a one at a time estimating activity using Polly. A multi-question app in Slack that uses comments and questions to engage in discussions over each user story. We used the Fibonacci Scale for estimating our user story points. The Fibonacci sequence is exponential instead of linear so it helped us to identify the different complexities of each story. </li>
 
