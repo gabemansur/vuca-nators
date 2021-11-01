@@ -8,10 +8,10 @@ Public repo for CSCI-E71 group project
 ###  2. Slack channel : [vucanators-agile-team](https://agilesoftwarecourse.slack.com/archives/C02L5H02672)
 ###  3. Git Repository : [vuca-nators](https://github.com/gabemansur/vuca-nators)
 ###  4. Scrum Team Roles:
-Folake Adeshina, Scrum Master
-James Burns, Product Owner & Developer
-Rachel Wallace, Developer
-Gabe Mansur, Developer
+Folake Adeshina, Scrum Master |
+James Burns, Product Owner & Developer |
+Rachel Wallace, Developer |
+Gabe Mansur, Developer |
 Raul Pulido, Developer
 
 ## Persona- Corey Gibson (His real name)
