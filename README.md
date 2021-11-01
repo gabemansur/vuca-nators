@@ -13,6 +13,7 @@ Public repo for CSCI-E71 group project
 ## Persona- Corey Gibson (His real name)
 ![image](https://user-images.githubusercontent.com/65990764/139624054-ff016165-e31b-4b1d-9188-90c0e639c755.png)
 ![image](https://user-images.githubusercontent.com/65990764/139624081-3b11c9fd-277d-48a9-bead-34b4fd5c5bd7.png)
+Image Source: https://www.topaccountingdegrees.org/faq/what-is-a-chartered-accountant/
 
 ## Team Definition of Ready
 
