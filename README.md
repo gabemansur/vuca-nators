@@ -4,8 +4,8 @@ Public repo for CSCI-E71 group project
 ## Project Description
 ### Product Name: Fortune Teller
 
-#### Near Vision: Cryptocurrency investors can experience a customizable crypto application.
-#### Far Vision: Investors can experience a cryptocurrency price prediction model in the application to facilitate their investment decisions.   
+#### Near Vision: Cryptocurrency investors can access a webpage with relevant price information.
+#### Far Vision: Investors can use a cryptocurrency price prediction model in the application to facilitate investment decisions.   
 
 ## Project Part 1
 ###  Scrum Team Name  "VUCANATORS"
@@ -19,9 +19,9 @@ Public repo for CSCI-E71 group project
 **Raul Pulido, Developer**
 
 ## Stakeholders:
-### 1. Cryptocurrency Investors
-### 2. Product Owner
-### 3. Accountant(Real Person)
+### 1. Cryptocurrency Investors, specifically, with at least 1k in the market
+### 2. Blockchain Enthusiasts, people who love and enjoy the technical powers of blockchain
+### 3. Casual Investors, specifically, people with little knowledge and less than 1k in the market
 
 
 ## Persona- Corey Gibson (His real name)
@@ -51,7 +51,7 @@ Next, we've scheduled the items that will give us a very minimal first iteration
 #### <li> [JIRA-URL](https://vuca-nators.atlassian.net/jira/software/projects/FT/boards/1/backlog) </li>
 
 ### Estimating the Backlog: <br/>
-#### <li> The developers all contributed to a one at a time estimating activity using Polly. A multi-question app in Slack that uses comments and questions to engage in discussions over each user story. We used the Fibonacci Scale for estimating our user story points. The Fibonacci sequence is exponential instead of linear so it helped us to identify the different complexities of each story. </li>
+#### <li> The developers all contributed to a one at a time estimating activity points using Polly. A multi-question app in Slack that uses comments and questions to engage in discussions over each user story. We used the Fibonacci Scale for estimating our user story points. The Fibonacci sequence is exponential instead of linear so it helped us to identify the different complexities of each story. </li>
 
 
 
