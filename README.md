@@ -53,6 +53,12 @@ Next, we've scheduled the items that will give us a very minimal first iteration
 ### Estimating the Backlog: <br/>
 #### <li> The developers all contributed to a one at a time estimating activity points using Polly. A multi-question app in Slack that uses comments and questions to engage in discussions over each user story. We used the Fibonacci Scale for estimating our user story points. The Fibonacci sequence is exponential instead of linear so it helped us to identify the different complexities of each story. </li>
 
+### Burndown Chart (Friday, Nov 12th)
+![image](https://user-images.githubusercontent.com/65990764/141510282-302d9243-01ce-436b-86c3-dfaa9d3182f7.png)
+Direct Link: https://miro.com/app/board/o9J_lmkBur8=/?invite_link_id=207030815636
 
+### Pair Programming Proof
+Gabe and James had a productive session on Wednesday!
+![teamProgramming](https://user-images.githubusercontent.com/65990764/141510468-8f29d1cc-a047-4557-b4aa-b717a7e9288b.JPG)
 
 
