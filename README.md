@@ -61,6 +61,8 @@ We did not have any data from previous sprints to base our velocity on so we mad
 For this first sprint we pulled user stories from the top of our product backlog. Only developers participated in this activity. We also made sure that the aggregate size of our stories did not exceed our forecast of 10 user story points. In order to remain under the forecast, we pulled in user stores FT-2 (3 points), FT-4 (2 points), and FT-3 (3 points). Each user story was decomposed into developer tasks.
 Our Kanban Board with user stories and developer tasks: [Kanban-Fortune-Teller](https://trello.com/b/u1anMbHM/fortune-teller)
 
+### Burndown Chart (Friday, Nov 12th)
+![image](https://user-images.githubusercontent.com/65990764/141510282-302d9243-01ce-436b-86c3-dfaa9d3182f7.png)
 ### Burndown Chart (Monday, Nov 15th)
 ![image](https://user-images.githubusercontent.com/65990764/141839413-05b870e2-85ef-4632-9351-78f41385e484.png)
 Direct Link: https://miro.com/app/board/o9J_lmkBur8=/?invite_link_id=207030815636
@@ -70,8 +72,20 @@ Screenshot: ![Daily Scrum](https://user-images.githubusercontent.com/65990764/14
 
 Raul:
 <li>What did you do in the last 24 hours?</li>
+<ul>
+<li>I installed the Jira TeamHealth Extension for the Scrum Forecast.</li>
+<li>I changed the workflow stages(split in progress into three new stages (in Dev, Dev-Test, and UAT). Also, added a previous stage "Ready to Deploy" before to Done. The idea is to have a more transparent process and have a better idea of how the sprint is moving.</li>
+<li>I installed Django and cloned the Fortune-Teller project.</li>
+<li>I inspected the website CoinMarketCap and I registered as a developer to get the API key</li>
+</ul>
 <li>What will you do in the next 24 hours?</li>
+<ul>
+<li>I will create the Unified Test to Fail and Success/Pass for the API connection to CoinMarketCap website.</li>
+</ul>
 <li>Are there any impediments?</li>
+<ul>
+<li>None</li>
+</ul>
 
 <br/>
 Rachel:
@@ -104,20 +118,38 @@ James:
 </ul>  
 <li>Are there any impediments?</li>
 <ul>
-<li>None</li>
+<li>As the product owner, I need to adjust our backlog items to include front end HTML/CSS for a homepage, at minimum</li>
 </ul>
 
 <br/>
 Gabe:
 <li>What did you do in the last 24 hours?</li>
+<ul>
+<li> I wrote unit tests for user registration and login; I tested and merged our API app for requesting data from glassnode.com </li>
+</ul>  
 <li>What will you do in the next 24 hours?</li>
+<ul>
+<li> I will participate in sprint planning and get started on my next assigned task (probably building out the API more) </li>
+</ul>  
 <li>Are there any impediments?</li>
+<ul>
+<li>No impediments at the moment</li>
+</ul>
 
 <br/>
 Folake:
 <li>What did you do in the last 24 hours?</li>
+<ul>
+<li> I have not worked on sprint tasks in the last 24 hours. </li>
+</ul>  
 <li>What will you do in the next 24 hours?</li>
+<ul>
+<li> I do not plan on working on sprint tasks in the next 24 hours. </li>
+</ul>  
 <li>Are there any impediments?</li>
+<ul>
+<li>None</li>
+</ul>
 
 
 ### Pair Programming Proof
@@ -136,9 +168,13 @@ We completed zero of ten story points. In our next sprint, we plan on communicat
 We made our site publicly accessible. Please visit: [Fortune Teller](http://143.198.157.232:8080/)
 
 ### Building Test First (Examples of 10 miro-scale unit tests that pass)
-Credit to Raul for this screenshot.
+Credit to Raul for these passing tests.
 ![image](https://user-images.githubusercontent.com/65990764/141837913-c085e46a-6da3-4d8d-83f3-ead908379329.png)
 
+Credit to Gabe for these passing tests.
+![image](https://user-images.githubusercontent.com/65990764/141842960-2ae47461-b494-43da-84af-9d517995c3c7.png)
 
+Credit to James for these passing tests.
+![image](https://user-images.githubusercontent.com/65990764/141842920-60fc0610-d3c2-48e2-9f52-92b91cce08b5.png)
 
 
