@@ -168,9 +168,13 @@ We completed zero of ten story points. In our next sprint, we plan on communicat
 We made our site publicly accessible. Please visit: [Fortune Teller](http://143.198.157.232:8080/)
 
 ### Building Test First (Examples of 10 miro-scale unit tests that pass)
-Credit to Raul for this screenshot.
+Credit to Raul for these passing tests.
 ![image](https://user-images.githubusercontent.com/65990764/141837913-c085e46a-6da3-4d8d-83f3-ead908379329.png)
 
+Credit to Gabe for these passing tests.
+![image](https://user-images.githubusercontent.com/65990764/141842960-2ae47461-b494-43da-84af-9d517995c3c7.png)
 
+Credit to James for these passing tests.
+![image](https://user-images.githubusercontent.com/65990764/141842920-60fc0610-d3c2-48e2-9f52-92b91cce08b5.png)
 
 
