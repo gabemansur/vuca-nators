@@ -59,6 +59,7 @@ We did not have any data from previous sprints to base our velocity on so we mad
 
 ### Sprint Backlog
 For this first sprint we pulled user stories from the top of our product backlog. Only developers participated in this activity. We also made sure that the aggregate size of our stories did not exceed our forecast of 10 user story points. In order to remain under the forecast, we pulled in user stores FT-2 (3 points), FT-4 (2 points), and FT-3 (3 points). 
+Our Kanban Board with user stories and developer tasks: [Kanban-Fortune-Teller](https://trello.com/b/u1anMbHM/fortune-teller)
 
 ### Burndown Chart (Friday, Nov 12th)
 ![image](https://user-images.githubusercontent.com/65990764/141510282-302d9243-01ce-436b-86c3-dfaa9d3182f7.png)
@@ -74,8 +75,21 @@ Raul:
 <br/>
 Rachel:
 <li>What did you do in the last 24 hours?</li>
+<ul>
+<li>FT-28: added login and admin functionality - includes views, models, urls, etc.</li>
+<li>Created a superuser (admin) and verified admin site - login credentials (endpoint /admin)</li>
+<li>Cryptoinvestor can register using Username, Email Address, Password(endpoint /register). Added functionality to allow user to register if they do not have login info</li>
+<li>Added functionality to allow user to login with Username/Password(enpoint /login)</li>
+<li>Added functionality to show content only available to users that are authenticated</li>
+</ul>
 <li>What will you do in the next 24 hours?</li>
+<ul>
+<li>Deploy the site to a droplet on digital ocean and create the kanban board with user stories and developer tasks.</li>
+</ul>
 <li>Are there any impediments?</li>
+<ul>
+<li>None</li>
+</ul>
 
 <br/>
 James:
@@ -95,6 +109,7 @@ Folake:
 <li>What will you do in the next 24 hours?</li>
 <li>Are there any impediments?</li>
 
+
 ### Pair Programming Proof
 Gabe and James had a productive session on Wednesday!
 ![teamProgramming](https://user-images.githubusercontent.com/65990764/141510468-8f29d1cc-a047-4557-b4aa-b717a7e9288b.JPG)
@@ -102,5 +117,8 @@ Gabe and James had a productive session on Wednesday!
 
 ### Working Software for Product Increment
 We made our site publicly accessible. Please visit: [Fortune Teller](http://143.198.157.232:8080/)
+
+### Building Test First (Examples of 10 miro-scale unit tests passing)
+
 
 
