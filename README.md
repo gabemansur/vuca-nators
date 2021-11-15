@@ -126,6 +126,7 @@ Gabe and James had a productive session on Wednesday!
 
 ### Sprint Review - Stakeholder Present
 Jack owns cryptocurrency, we showed him our product increment from the first sprint. Due to his feedback, we chose to add a homepage HTML/CSS item to our backlog, because it was clear we didn't have that built yet.
+We completed zero of ten story points. In our next sprint, we plan on communicating more, and working on more specific product backlog items, that better align to our goals.
 ![Capture](https://user-images.githubusercontent.com/65990764/141836922-f7178234-2d76-430f-ac58-045ca7e550b5.JPG)
 
 ### Sprint Retrospective - Resulting Action Item
