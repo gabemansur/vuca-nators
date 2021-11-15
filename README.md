@@ -66,6 +66,7 @@ Our Kanban Board with user stories and developer tasks: [Kanban-Fortune-Teller](
 Direct Link: https://miro.com/app/board/o9J_lmkBur8=/?invite_link_id=207030815636
 
 ### Daily Scrums (Sample of 1 Day)
+Screenshot: ![Daily Scrum](https://user-images.githubusercontent.com/65990764/141836995-6b70d682-7b05-48a9-af49-f8eba0390ecf.JPG)
 
 Raul:
 <li>What did you do in the last 24 hours?</li>
@@ -123,6 +124,9 @@ Folake:
 Gabe and James had a productive session on Wednesday!
 ![teamProgramming](https://user-images.githubusercontent.com/65990764/141510468-8f29d1cc-a047-4557-b4aa-b717a7e9288b.JPG)
 
+### Stakeholder Present Proof
+Jack owns cryptocurrency, we showed him our product increment from the first sprint.
+![Capture](https://user-images.githubusercontent.com/65990764/141836922-f7178234-2d76-430f-ac58-045ca7e550b5.JPG)
 
 ### Working Software for Product Increment
 We made our site publicly accessible. Please visit: [Fortune Teller](http://143.198.157.232:8080/)
