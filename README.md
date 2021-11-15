@@ -58,7 +58,7 @@ The developers all contributed to a one at a time estimating activity points usi
 We did not have any data from previous sprints to base our velocity on so we made an estimation and forecasted 10 user story points to deliver in the first sprint. This forecast was based on the skill level and size of our development team. We plan to adjust our next sprints based on the experience we have in our first sprint. In the upcoming sprints, we will use Yesterday's Weather to make a more calculated decision based on the data that is already known.
 
 ### Sprint Backlog
-For this first sprint we pulled user stories from the top of our product backlog. Only developers participated in this activity. We also made sure that the aggregate size of our stories did not exceed our forecast of 10 user story points. In order to remain under the forecast, we pulled in user stores FT-2 (3 points), FT-4 (2 points), and FT-3 (3 points). 
+For this first sprint we pulled user stories from the top of our product backlog. Only developers participated in this activity. We also made sure that the aggregate size of our stories did not exceed our forecast of 10 user story points. In order to remain under the forecast, we pulled in user stores FT-2 (3 points), FT-4 (2 points), and FT-3 (3 points). Each user story was decomposed into developer tasks.
 Our Kanban Board with user stories and developer tasks: [Kanban-Fortune-Teller](https://trello.com/b/u1anMbHM/fortune-teller)
 
 ### Burndown Chart (Friday, Nov 12th)
