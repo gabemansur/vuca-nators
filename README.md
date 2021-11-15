@@ -61,6 +61,8 @@ We did not have any data from previous sprints to base our velocity on so we mad
 For this first sprint we pulled user stories from the top of our product backlog. Only developers participated in this activity. We also made sure that the aggregate size of our stories did not exceed our forecast of 10 user story points. In order to remain under the forecast, we pulled in user stores FT-2 (3 points), FT-4 (2 points), and FT-3 (3 points). Each user story was decomposed into developer tasks.
 Our Kanban Board with user stories and developer tasks: [Kanban-Fortune-Teller](https://trello.com/b/u1anMbHM/fortune-teller)
 
+### Burndown Chart (Friday, Nov 12th)
+![image](https://user-images.githubusercontent.com/65990764/141510282-302d9243-01ce-436b-86c3-dfaa9d3182f7.png)
 ### Burndown Chart (Monday, Nov 15th)
 ![image](https://user-images.githubusercontent.com/65990764/141839413-05b870e2-85ef-4632-9351-78f41385e484.png)
 Direct Link: https://miro.com/app/board/o9J_lmkBur8=/?invite_link_id=207030815636
