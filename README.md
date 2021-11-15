@@ -12,13 +12,13 @@ Public repo for CSCI-E71 group project
 ###  Slack channel : [vucanators-agile-team](https://agilesoftwarecourse.slack.com/archives/C02L5H02672)
 ###  Git Repository : [vuca-nators](https://github.com/gabemansur/vuca-nators)
 ###  Scrum Team Roles:
-**Folake Adeshina, Scrum Master** <br/>
+**Folake Adeshina, Scrum Master & Developer** <br/>
 **James Burns, Product Owner & Developer** <br/>
 **Rachel Wallace, Developer** <br/>
 **Gabe Mansur, Developer** <br/>
 **Raul Pulido, Developer**
 
-## Stakeholders:
+## Stakeholders
 ### 1. Cryptocurrency Investors, specifically, with at least 1k in the market (Example: Corey Gibson)
 ### 2. Blockchain Enthusiasts, people who love and enjoy the technical powers of blockchain
 ### 3. Casual Investors, specifically, people with little knowledge and less than 1k in the market
@@ -46,19 +46,67 @@ Next, we've scheduled the items that will give us a very minimal first iteration
 ### 5. Have a story point estimate
 
 ## Product Backlog
-### Jira Product Backlog: <br/>
-#### <li> We stored our product backlog in Jira. The Professor and TA have been given access.</li>
-#### <li> [JIRA-URL](https://vuca-nators.atlassian.net/jira/software/projects/FT/boards/1/backlog) </li>
+### Jira Product Backlog <br/>
+We stored our product backlog in Jira. The Professor and TA have been given access. [JIRA-URL](https://vuca-nators.atlassian.net/jira/software/projects/FT/boards/1/backlog)
 
-### Estimating the Backlog: <br/>
-#### <li> The developers all contributed to a one at a time estimating activity points using Polly. A multi-question app in Slack that uses comments and questions to engage in discussions over each user story. We used the Fibonacci Scale for estimating our user story points. The Fibonacci sequence is exponential instead of linear so it helped us to identify the different complexities of each story. </li>
+### Estimating the Backlog <br/>
+The developers all contributed to a one at a time estimating activity points using Polly. A multi-question app in Slack that uses comments and questions to engage in discussions over each user story. We used the Fibonacci Scale for estimating our user story points. The Fibonacci sequence is exponential instead of linear so it helped us to identify the different complexities of each story.
+
+## Project Part 2: First Sprint
+
+### Forecast
+We did not have any data from previous sprints to base our velocity on so we made an estimation and forecasted 10 user story points to deliver in the first sprint. This forecast was based on the skill level and size of our development team. We plan to adjust our next sprints based on the experience we have in our first sprint. In the upcoming sprints, we will use Yesterday's Weather to make a more calculated decision based on the data that is already known.
+
+### Sprint Backlog
+For this first sprint we pulled user stories from the top of our product backlog. Only developers participated in this activity. We also made sure that the aggregate size of our stories did not exceed our forecast of 10 user story points. In order to remain under the forecast, we pulled in user stores FT-2 (3 points), FT-4 (2 points), and FT-3 (3 points). 
 
 ### Burndown Chart (Friday, Nov 12th)
 ![image](https://user-images.githubusercontent.com/65990764/141510282-302d9243-01ce-436b-86c3-dfaa9d3182f7.png)
 Direct Link: https://miro.com/app/board/o9J_lmkBur8=/?invite_link_id=207030815636
 
+### Daily Scrums (Sample of 1 Day)
+
+Raul:
+<li>What did you do in the last 24 hours?</li>
+
+<li>What will you do in the next 24 hours?</li>
+
+<li>Are there any impediments?</li>
+
+Rachel:
+<li>What did you do in the last 24 hours?</li>
+
+<li>What will you do in the next 24 hours?</li>
+
+<li>Are there any impediments?</li>
+
+James:
+<li>What did you do in the last 24 hours?</li>
+
+<li>What will you do in the next 24 hours?</li>
+
+<li>Are there any impediments?</li>
+
+Gabe:
+<li>What did you do in the last 24 hours?</li>
+
+<li>What will you do in the next 24 hours?</li>
+
+<li>Are there any impediments?</li>
+
+Folake:
+<li>What did you do in the last 24 hours?</li>
+
+<li>What will you do in the next 24 hours?</li>
+
+<li>Are there any impediments?</li>
+
 ### Pair Programming Proof
 Gabe and James had a productive session on Wednesday!
 ![teamProgramming](https://user-images.githubusercontent.com/65990764/141510468-8f29d1cc-a047-4557-b4aa-b717a7e9288b.JPG)
+
+
+### Working Software for Product Increment
+We made our site publicly accessible. Please visit: [Fortune Teller](http://143.198.157.232:8080/)
 
 
