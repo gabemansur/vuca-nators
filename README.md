@@ -70,8 +70,17 @@ Screenshot: ![Daily Scrum](https://user-images.githubusercontent.com/65990764/14
 
 Raul:
 <li>What did you do in the last 24 hours?</li>
+<ul>
+<li> I have not worked on sprint tasks in the last 24 hours. </li>
+</ul>  
 <li>What will you do in the next 24 hours?</li>
+<ul>
+<li> I do not plan on working on sprint tasks in the next 24 hours. </li>
+</ul>  
 <li>Are there any impediments?</li>
+<ul>
+<li>None</li>
+</ul>
 
 <br/>
 Rachel:
@@ -110,14 +119,32 @@ James:
 <br/>
 Gabe:
 <li>What did you do in the last 24 hours?</li>
+<ul>
+<li> I have not worked on sprint tasks in the last 24 hours. </li>
+</ul>  
 <li>What will you do in the next 24 hours?</li>
+<ul>
+<li> I do not plan on working on sprint tasks in the next 24 hours. </li>
+</ul>  
 <li>Are there any impediments?</li>
+<ul>
+<li>None</li>
+</ul>
 
 <br/>
 Folake:
 <li>What did you do in the last 24 hours?</li>
+<ul>
+<li> I have not worked on sprint tasks in the last 24 hours. </li>
+</ul>  
 <li>What will you do in the next 24 hours?</li>
+<ul>
+<li> I do not plan on working on sprint tasks in the next 24 hours. </li>
+</ul>  
 <li>Are there any impediments?</li>
+<ul>
+<li>None</li>
+</ul>
 
 
 ### Pair Programming Proof
