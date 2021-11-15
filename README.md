@@ -125,15 +125,15 @@ James:
 Gabe:
 <li>What did you do in the last 24 hours?</li>
 <ul>
-<li> I have not worked on sprint tasks in the last 24 hours. </li>
+<li> I wrote unit tests for user registration and login; I tested and merged our API app for requesting data from glassnode.com </li>
 </ul>  
 <li>What will you do in the next 24 hours?</li>
 <ul>
-<li> I do not plan on working on sprint tasks in the next 24 hours. </li>
+<li> I will participate in sprint planning and get started on my next assigned task (probably building out the API more) </li>
 </ul>  
 <li>Are there any impediments?</li>
 <ul>
-<li>None</li>
+<li>No impediments at the moment</li>
 </ul>
 
 <br/>
