@@ -116,7 +116,7 @@ James:
 </ul>  
 <li>Are there any impediments?</li>
 <ul>
-<li>None</li>
+<li>As the product owner, I need to adjust our backlog items to include front end HTML/CSS for a homepage, at minimum</li>
 </ul>
 
 <br/>
