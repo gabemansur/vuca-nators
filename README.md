@@ -128,13 +128,16 @@ Gabe and James had a productive session on Wednesday!
 Jack owns cryptocurrency, we showed him our product increment from the first sprint. Due to his feedback, we chose to add a homepage HTML/CSS item to our backlog, because it was clear we didn't have that built yet.
 ![Capture](https://user-images.githubusercontent.com/65990764/141836922-f7178234-2d76-430f-ac58-045ca7e550b5.JPG)
 
-### Sprint Retrospective - Resulting Action
+### Sprint Retrospective - Resulting Action Item
 ![image](https://user-images.githubusercontent.com/65990764/141837677-38f4ed75-1bbc-40f1-b0fe-e915d6a54fe6.png)
 
 ### Working Software for Product Increment
 We made our site publicly accessible. Please visit: [Fortune Teller](http://143.198.157.232:8080/)
 
 ### Building Test First (Examples of 10 miro-scale unit tests that pass)
+Credit to Raul for this screenshot.
+![image](https://user-images.githubusercontent.com/65990764/141837913-c085e46a-6da3-4d8d-83f3-ead908379329.png)
+
 
 
 
