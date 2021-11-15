@@ -71,12 +71,15 @@ Screenshot: ![Daily Scrum](https://user-images.githubusercontent.com/65990764/14
 Raul:
 <li>What did you do in the last 24 hours?</li>
 <ul>
-<li> I have not worked on sprint tasks in the last 24 hours. </li>
-</ul>  
+<li>I installed the Jira TeamHealth Extension for the Scrum Forecast.</li>
+<li>I changed the workflow stages(split in progress into three new stages (in Dev, Dev-Test, and UAT). Also, added a previous stage "Ready to Deploy" before to Done. The idea is to have a more transparent process and have a better idea of how the sprint is moving.</li>
+<li>I installed Django and cloned the Fortune-Teller project.</li>
+<li>I inspected the website CoinMarketCap and I registered as a developer to get the API key</li>
+</ul>
 <li>What will you do in the next 24 hours?</li>
 <ul>
-<li> I do not plan on working on sprint tasks in the next 24 hours. </li>
-</ul>  
+<li>I will create the Unified Test to Fail and Success/Pass for the API connection to CoinMarketCap website.</li>
+</ul>
 <li>Are there any impediments?</li>
 <ul>
 <li>None</li>
