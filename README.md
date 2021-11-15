@@ -68,37 +68,31 @@ Direct Link: https://miro.com/app/board/o9J_lmkBur8=/?invite_link_id=20703081563
 
 Raul:
 <li>What did you do in the last 24 hours?</li>
-
 <li>What will you do in the next 24 hours?</li>
-
 <li>Are there any impediments?</li>
 
+<br/>
 Rachel:
 <li>What did you do in the last 24 hours?</li>
-
 <li>What will you do in the next 24 hours?</li>
-
 <li>Are there any impediments?</li>
 
+<br/>
 James:
 <li>What did you do in the last 24 hours?</li>
-
 <li>What will you do in the next 24 hours?</li>
-
 <li>Are there any impediments?</li>
 
+<br/>
 Gabe:
 <li>What did you do in the last 24 hours?</li>
-
 <li>What will you do in the next 24 hours?</li>
-
 <li>Are there any impediments?</li>
 
+<br/>
 Folake:
 <li>What did you do in the last 24 hours?</li>
-
 <li>What will you do in the next 24 hours?</li>
-
 <li>Are there any impediments?</li>
 
 ### Pair Programming Proof
