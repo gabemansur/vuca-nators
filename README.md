@@ -94,8 +94,17 @@ Rachel:
 <br/>
 James:
 <li>What did you do in the last 24 hours?</li>
+<ul>
+<li> I created tests for our API implementation and developed a function following TDD procedures. </li>
+</ul>  
 <li>What will you do in the next 24 hours?</li>
+<ul>
+<li> I will continue to build out API price functionality and integrate with our front end. </li>
+</ul>  
 <li>Are there any impediments?</li>
+<ul>
+<li>None</li>
+</ul>
 
 <br/>
 Gabe:
