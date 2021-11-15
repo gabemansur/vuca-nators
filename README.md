@@ -172,6 +172,7 @@ Credit to Raul for these passing tests.
 ![image](https://user-images.githubusercontent.com/65990764/141837913-c085e46a-6da3-4d8d-83f3-ead908379329.png)
 
 Credit to Gabe for these passing tests.
+![image](https://user-images.githubusercontent.com/14114255/141843850-83cb26db-ea5d-4cfc-b5a1-0f41140207a4.png)
 ![image](https://user-images.githubusercontent.com/65990764/141842960-2ae47461-b494-43da-84af-9d517995c3c7.png)
 
 Credit to James for these passing tests.
