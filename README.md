@@ -182,4 +182,7 @@ Credit to James for these passing tests.
 ![image](https://user-images.githubusercontent.com/65990764/141842920-60fc0610-d3c2-48e2-9f52-92b91cce08b5.png)
 
 --------
+# SPRINT 2
 
+Planning was held Monday, November 15th at 6PM.
+Daily Scrum meeting planned for Friday, November 19th at 7PM.
