@@ -70,49 +70,53 @@ Value this sprint will bring:
 ### Daily Scrum
 Daily Scrum meeting planned for Friday, November 19th at 7PM.
 
+### What did you do since our last meeting?
 <br/>
 Raul:
-<li>What did you do in the last 24 hours?</li>
-
-<li>What will you do in the next 24 hours?</li>
-
-<li>Are there any impediments?</li>
-
 
 <br/>
 Rachel:
-<li>What did you do in the last 24 hours?</li>
-
-<li>What will you do in the next 24 hours?</li>
-
-<li>Are there any impediments?</li>
-
 
 <br/>
 James:
-<li>What did you do in the last 24 hours?</li>
-  
-<li>What will you do in the next 24 hours?</li>
- 
-<li>Are there any impediments?</li>
-
 
 <br/>
 Gabe:
-<li>What did you do in the last 24 hours?</li>
-
-<li>What will you do in the next 24 hours?</li>
- 
-<li>Are there any impediments?</li>
-
 
 <br/>
 Folake:
-<li>What did you do in the last 24 hours?</li>
 
-<li>What will you do in the next 24 hours?</li>
+### What will you do until our next meeting?
+<br/>
+Raul:
 
-<li>Are there any impediments?</li>
+<br/>
+Rachel:
+
+<br/>
+James:
+
+<br/>
+Gabe:
+
+<br/>
+Folake:
+
+### Are there any impediments?
+<br/>
+Raul:
+
+<br/>
+Rachel:
+
+<br/>
+James:
+
+<br/>
+Gabe:
+
+<br/>
+Folake:
 
 ### Update of Sprint Board and Burndown Chart
 
