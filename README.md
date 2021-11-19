@@ -1,5 +1,4 @@
-# AGILE TEAM
-# VUCA-nators
+# AGILE TEAM: VUCA-nators
 Public repo for CSCI-E71 group project
 
 ## Project Description
