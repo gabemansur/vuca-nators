@@ -58,5 +58,74 @@ All of the information for FortuneTeller Sprint 1 can be found here: (https://gi
 
 ## Project Part 3: SPRINT 2
 
+### Sprint Planning
 Planning was held Monday, November 15th at 6PM.
+Sprint Goal:
+Value this sprint will bring:
+
+### Forecast
+
+### Sprint Burdown Chart
+
+### Daily Scrum
 Daily Scrum meeting planned for Friday, November 19th at 7PM.
+
+<br/>
+Raul:
+<li>What did you do in the last 24 hours?</li>
+
+<li>What will you do in the next 24 hours?</li>
+
+<li>Are there any impediments?</li>
+
+
+<br/>
+Rachel:
+<li>What did you do in the last 24 hours?</li>
+
+<li>What will you do in the next 24 hours?</li>
+
+<li>Are there any impediments?</li>
+
+
+<br/>
+James:
+<li>What did you do in the last 24 hours?</li>
+  
+<li>What will you do in the next 24 hours?</li>
+ 
+<li>Are there any impediments?</li>
+
+
+<br/>
+Gabe:
+<li>What did you do in the last 24 hours?</li>
+
+<li>What will you do in the next 24 hours?</li>
+ 
+<li>Are there any impediments?</li>
+
+
+<br/>
+Folake:
+<li>What did you do in the last 24 hours?</li>
+
+<li>What will you do in the next 24 hours?</li>
+
+<li>Are there any impediments?</li>
+
+### Update of Sprint Board and Burndown Chart
+
+### Pair and/or Mob Programming
+
+### Test-Driven Development
+
+### Sprint Review
+
+### Sprint Retrospective with Acceptance Criteria
+
+### Continuous Integration
+
+### Continuous Deployment
+
+
