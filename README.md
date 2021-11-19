@@ -52,7 +52,7 @@ We stored our product backlog in Jira. The Professor and TA have been given acce
 ### Estimating the Backlog <br/>
 The developers all contributed to a one at a time estimating activity points using Polly. A multi-question app in Slack that uses comments and questions to engage in discussions over each user story. We used the Fibonacci Scale for estimating our user story points. The Fibonacci sequence is exponential instead of linear so it helped us to identify the different complexities of each story.
 
-## Project Part 2: First Sprint
+## Project Part 2: SPRINT 1
 
 All of the information for FortuneTeller Sprint 1 can be found here: (https://github.com/gabemansur/vuca-nators/blob/main/Sprint1README.md) 
 
