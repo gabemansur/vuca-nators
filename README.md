@@ -64,7 +64,6 @@ Planning was held Monday, November 15th at 6PM.
 Sprint Goal:
 <br/>
 Value this sprint will bring:
-<br/>
 #### Jira Product Backlog <br/>
 [JIRA-URL](https://vuca-nators.atlassian.net/jira/software/projects/FT/boards/1/backlog)
 
