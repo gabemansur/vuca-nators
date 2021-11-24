@@ -56,4 +56,4 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           script: |
             cd /root/vuca-nators/fortuneteller
-            nohup python3 manage.py runserver 0.0.0.0:8080 & > /dev/null
+            nohup python3 -u manage.py runserver 0.0.0.0:8080 > /dev/null 2>&1 &
