@@ -2,6 +2,8 @@ name: CI by Rachel Wallace
 
 on:
   pull_request:
+    branches:
+      - main
     types: [opened]
 
 jobs:
