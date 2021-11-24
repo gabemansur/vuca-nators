@@ -54,4 +54,4 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
-          run: nohup python3 manage.py runserver 0.0.0.0:8080 & > /dev/null
+          script: nohup python3 manage.py runserver 0.0.0.0:8080 & > /dev/null
