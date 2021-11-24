@@ -50,6 +50,7 @@ jobs:
             cd /root/vuca-nators/fortuneteller
             python3 manage.py test
   deploy:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     needs: test
     strategy:
