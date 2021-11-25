@@ -76,7 +76,7 @@ Daily Scrum meeting, we met on Friday, November 19th at 7PM.
 
 ### What did you do since our last meeting?
 <br/>
-Raul: 
+Raul: Working on the code from ticket FT-27 to remove the static data in the front end. Fixing the JSON to get it working properly.
 
 <br/>
 Rachel:
@@ -92,7 +92,7 @@ Folake:
 
 ### What will you do until our next meeting?
 <br/>
-Raul:
+Raul: Complete tests and add to the repo as well as make changes in the code to make sure the data from the API is displayed in the templates.
 
 <br/>
 Rachel:
@@ -108,7 +108,7 @@ Folake:
 
 ### Are there any impediments?
 <br/>
-Raul:
+Raul: Had an issue with working with the levels for the API. 
 
 <br/>
 Rachel:
@@ -130,7 +130,7 @@ Folake:
 
 ### Sprint Review
 
-### Sprint Retrospective with Acceptance Criteria
+### Sprint Retrospective with Improvement Plan for next sprint
 
 ### Continuous Integration
 
