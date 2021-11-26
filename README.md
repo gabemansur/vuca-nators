@@ -75,6 +75,7 @@ Jira Product Backlog: [JIRA-URL](https://vuca-nators.atlassian.net/jira/software
 Daily Scrum meeting, we met on Friday, November 19th at 7PM.
 
 ### What did you do since our last meeting?
+<br/>
 <ul>
 <li> 
 Raul: Working on the code from ticket FT-27 to remove the static data in the front end. Fixing the JSON to get it working properly.
@@ -92,7 +93,9 @@ Gabe: Worked on understanding the definition of stand alone unit tests.
 Folake: Setting up static files with Templates and CSS
 </li>
 </ul>
+
 ### What will you do until our next meeting?
+<br/>
 <ul>
 <li> 
 Raul: Complete tests and add to the repo as well as make changes in the code to make sure the data from the API is displayed in the templates.
@@ -111,6 +114,7 @@ Folake: Will be continuing to work on ticket FT-30 to develop the design in the 
 </li>
 </ul>
 ### Are there any impediments?
+<br/>
 <ul>
 <li> 
 Raul: Had an issue with working with the levels for the API. 
@@ -128,6 +132,7 @@ Gabe: Blocked by how exactly we will structure the backend of the site.
 Folake: Was blocked by the CSS not loading but together as a team we were able to unblock the issue allowing CSS to display correctly.
 </li>
 </ul>
+<br/>
 ### Update of Sprint Board and Burndown Chart
 
 ### Pair and/or Mob Programming
