@@ -113,6 +113,7 @@ Gabe: Working to structure market cap of cryptocurrency
 Folake: Will be continuing to work on ticket FT-30 to develop the design in the frontend
 </li>
 </ul>
+
 ### Are there any impediments?
 <br/>
 <ul>
@@ -133,6 +134,7 @@ Folake: Was blocked by the CSS not loading but together as a team we were able t
 </li>
 </ul>
 <br/>
+
 ### Update of Sprint Board and Burndown Chart
 
 ### Pair and/or Mob Programming
