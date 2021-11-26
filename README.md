@@ -71,8 +71,8 @@ Jira Product Backlog: [JIRA-URL](https://vuca-nators.atlassian.net/jira/software
 
 ### Sprint Burdown Chart
 
-### Daily Scrum
-Daily Scrum meeting, we met on Friday, November 19th at 7PM.
+### Daily Scrums(Sample)
+Outcome from Daily Scrum meeting, when we met on Friday, November 19th at 7PM.
 
 ### What did you do since our last meeting?
 
