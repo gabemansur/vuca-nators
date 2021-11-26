@@ -137,7 +137,10 @@ Folake: Was blocked by the CSS not loading but together as a team we were able t
 
 ### Update of Sprint Board and Burndown Chart
 
-### Pair and/or Mob Programming
+### Pair and Mob Programming
+
+Our productive mob programming session on Tuesday, Nov. 23rd with James, Rachel, Gabe, and Raul.
+![image](https://user-images.githubusercontent.com/64049629/143620114-dc742fab-3f06-44f6-bdf5-27256f9f1693.png)
 
 ### Test-Driven Development
 
