@@ -61,7 +61,7 @@ All of the information for FortuneTeller Sprint 1 can be found here: (https://gi
 ### Sprint Planning
 Planning was held Monday, November 15th at 6PM.
 <br/>
-Sprint Goal:
+Sprint Goal: Have a website with a working homepage (both front-end and back-end) that displays current cryptocurrency data.
 <br/>
 Value this sprint will bring:
 <br/>
@@ -79,48 +79,48 @@ Daily Scrum meeting, we met on Friday, November 19th at 7PM.
 Raul: Working on the code from ticket FT-27 to remove the static data in the front end. Fixing the JSON to get it working properly.
 
 <br/>
-Rachel:
+Rachel: Worked on setting up the CI/CD pipeline with test, build and deploy. In the ci.yaml file test was included and in the cd.yaml file is build and deploy.
 
 <br/>
-James:
+James: Created two different things in Figma, layout of homepage design and two different logos. Moved tests to the right directory.
 
 <br/>
-Gabe: 
+Gabe: Worked on understanding the definition of stand alone unit tests. 
 
 <br/>
-Folake:
+Folake: Setting up static files with Templates and CSS
 
 ### What will you do until our next meeting?
 <br/>
 Raul: Complete tests and add to the repo as well as make changes in the code to make sure the data from the API is displayed in the templates.
 
 <br/>
-Rachel:
+Rachel: Test the pipeline to make sure that it will continue to run without breaking. Update the readme with current sprint documentation.
 
 <br/>
-James:
+James: Make sure that the API directory and app directory fit together correctly.
 
 <br/>
-Gabe:
+Gabe: Working to structure market cap of cryptocurrency
 
 <br/>
-Folake:
+Folake: Will be continuing to work on ticket FT-30 to develop the design in the frontend
 
 ### Are there any impediments?
 <br/>
 Raul: Had an issue with working with the levels for the API. 
 
 <br/>
-Rachel:
+Rachel: Had an issue initially with the pipeline consistently breaking but was able to resolve after seeing that secrets were needed to be added into the .yaml files and also in github actions under settings 
 
 <br/>
-James:
+James: Not finding modules to test the code. 
 
 <br/>
-Gabe:
+Gabe: Blocked by how exactly we will structure the backend of the site. 
 
 <br/>
-Folake:
+Folake: Was blocked by the CSS not loading but together as a team we were able to unblock the issue allowing CSS to display correctly.
 
 ### Update of Sprint Board and Burndown Chart
 
