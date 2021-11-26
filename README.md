@@ -75,53 +75,59 @@ Jira Product Backlog: [JIRA-URL](https://vuca-nators.atlassian.net/jira/software
 Daily Scrum meeting, we met on Friday, November 19th at 7PM.
 
 ### What did you do since our last meeting?
-<br/>
+<ul>
+<li> 
 Raul: Working on the code from ticket FT-27 to remove the static data in the front end. Fixing the JSON to get it working properly.
-
-<br/>
+</li>
+<li>
 Rachel: Worked on setting up the CI/CD pipeline with test, build and deploy. In the ci.yaml file test was included and in the cd.yaml file is build and deploy.
-
-<br/>
+</li>
+<li>
 James: Created two different things in Figma, layout of homepage design and two different logos. Moved tests to the right directory.
-
-<br/>
+</li>
+<li>
 Gabe: Worked on understanding the definition of stand alone unit tests. 
-
-<br/>
+</li>
+<li>
 Folake: Setting up static files with Templates and CSS
-
+</li>
+</ul>
 ### What will you do until our next meeting?
-<br/>
+<ul>
+<li> 
 Raul: Complete tests and add to the repo as well as make changes in the code to make sure the data from the API is displayed in the templates.
-
-<br/>
+</li>
+<li>
 Rachel: Test the pipeline to make sure that it will continue to run without breaking. Update the readme with current sprint documentation.
-
-<br/>
+</li>
+<li>
 James: Make sure that the API directory and app directory fit together correctly.
-
-<br/>
+</li>
+<li>
 Gabe: Working to structure market cap of cryptocurrency
-
-<br/>
+</li>
+<li>
 Folake: Will be continuing to work on ticket FT-30 to develop the design in the frontend
-
+</li>
+</ul>
 ### Are there any impediments?
-<br/>
+<ul>
+<li> 
 Raul: Had an issue with working with the levels for the API. 
-
-<br/>
+</li>
+<li>
 Rachel: Had an issue initially with the pipeline consistently breaking but was able to resolve after seeing that secrets were needed to be added into the .yaml files and also in github actions under settings 
-
-<br/>
+</li>
+<li>
 James: Not finding modules to test the code. 
-
-<br/>
+</li>
+<li>
 Gabe: Blocked by how exactly we will structure the backend of the site. 
-
-<br/>
+</li>
+<li>
 Folake: Was blocked by the CSS not loading but together as a team we were able to unblock the issue allowing CSS to display correctly.
-
+</li>
+</ul>
 ### Update of Sprint Board and Burndown Chart
 
 ### Pair and/or Mob Programming
