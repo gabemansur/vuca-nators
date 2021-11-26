@@ -142,6 +142,9 @@ Folake: Was blocked by the CSS not loading but together as a team we were able t
 Our productive mob programming session on Tuesday, Nov. 23rd with James, Rachel, Gabe, and Raul.
 ![image](https://user-images.githubusercontent.com/64049629/143620114-dc742fab-3f06-44f6-bdf5-27256f9f1693.png)
 
+Folake and Rachel met for Pair programming on Thursday, Nov. 25th to work on the front end. 
+![image](https://user-images.githubusercontent.com/64049629/143627694-7a5028c9-9e60-474b-93f3-56d959d3b9bb.png)
+
 ### Test-Driven Development
 
 ### Sprint Review
