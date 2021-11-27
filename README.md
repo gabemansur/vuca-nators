@@ -1,4 +1,4 @@
-# VUCA-nators
+# AGILE TEAM: VUCA-nators
 Public repo for CSCI-E71 group project
 
 ## Project Description
@@ -52,130 +52,141 @@ We stored our product backlog in Jira. The Professor and TA have been given acce
 ### Estimating the Backlog <br/>
 The developers all contributed to a one at a time estimating activity points using Polly. A multi-question app in Slack that uses comments and questions to engage in discussions over each user story. We used the Fibonacci Scale for estimating our user story points. The Fibonacci sequence is exponential instead of linear so it helped us to identify the different complexities of each story.
 
-## Project Part 2: First Sprint
+## Project Part 2: SPRINT 1
+
+All of the information for FortuneTeller Sprint 1 can be found here: (https://github.com/gabemansur/vuca-nators/blob/main/Sprint1README.md) 
+
+## Project Part 3: SPRINT 2
+
+### Sprint Planning
+Planning was held Monday, November 15th at 6PM.
+<br/>
+Sprint Goal: Have a website with a working homepage (both front-end and back-end) that displays current cryptocurrency data.
+<br/>
+Value this sprint will bring:
+<br/>
+Jira Product Backlog: [JIRA-URL](https://vuca-nators.atlassian.net/jira/software/projects/FT/boards/1/backlog)
 
 ### Forecast
-We did not have any data from previous sprints to base our velocity on so we made an estimation and forecasted 10 user story points to deliver in the first sprint. This forecast was based on the skill level and size of our development team. We plan to adjust our next sprints based on the experience we have in our first sprint. In the upcoming sprints, we will use Yesterday's Weather to make a more calculated decision based on the data that is already known.
 
-### Sprint Backlog
-For this first sprint we pulled user stories from the top of our product backlog. Only developers participated in this activity. We also made sure that the aggregate size of our stories did not exceed our forecast of 10 user story points. In order to remain under the forecast, we pulled in user stores FT-2 (3 points), FT-4 (2 points), and FT-3 (3 points). Each user story was decomposed into developer tasks.
-Our Kanban Board with user stories and developer tasks: [Kanban-Fortune-Teller](https://trello.com/b/u1anMbHM/fortune-teller)
+### Sprint Burdown Chart
 
-### Burndown Chart (Friday, Nov 12th)
-![image](https://user-images.githubusercontent.com/65990764/141510282-302d9243-01ce-436b-86c3-dfaa9d3182f7.png)
-### Burndown Chart (Monday, Nov 15th)
-![image](https://user-images.githubusercontent.com/65990764/141839413-05b870e2-85ef-4632-9351-78f41385e484.png)
-Direct Link: https://miro.com/app/board/o9J_lmkBur8=/?invite_link_id=207030815636
+### Daily Scrums(Sample)
+Outcome from Daily Scrum meeting, when we met on Friday, November 19th at 7PM.
 
-### Daily Scrums (Sample of 1 Day)
-Screenshot: ![Daily Scrum](https://user-images.githubusercontent.com/65990764/141836995-6b70d682-7b05-48a9-af49-f8eba0390ecf.JPG)
+### What did you do since our last meeting?
 
-Raul:
-<li>What did you do in the last 24 hours?</li>
 <ul>
-<li>I installed the Jira TeamHealth Extension for the Scrum Forecast.</li>
-<li>I changed the workflow stages(split in progress into three new stages (in Dev, Dev-Test, and UAT). Also, added a previous stage "Ready to Deploy" before to Done. The idea is to have a more transparent process and have a better idea of how the sprint is moving.</li>
-<li>I installed Django and cloned the Fortune-Teller project.</li>
-<li>I inspected the website CoinMarketCap and I registered as a developer to get the API key</li>
-</ul>
-<li>What will you do in the next 24 hours?</li>
-<ul>
-<li>I will create the Unified Test to Fail and Success/Pass for the API connection to CoinMarketCap website.</li>
-</ul>
-<li>Are there any impediments?</li>
-<ul>
-<li>None</li>
+<li> 
+Raul: Working on the code from ticket FT-27 to remove the static data in the front end. Fixing the JSON to get it working properly.
+</li>
+<li>
+Rachel: Worked on setting up the CI/CD pipeline with test, build and deploy. In the ci.yaml file test was included and in the cd.yaml file is build and deploy.
+</li>
+<li>
+James: Created two different things in Figma, layout of homepage design and two different logos. Moved tests to the right directory.
+</li>
+<li>
+Gabe: Worked on understanding the definition of stand alone unit tests. 
+</li>
+<li>
+Folake: Setting up static files with Templates and CSS
+</li>
 </ul>
 
-<br/>
-Rachel:
-<li>What did you do in the last 24 hours?</li>
+### What will you do until our next meeting?
+
 <ul>
-<li>FT-28: added login and admin functionality - includes views, models, urls, etc.</li>
-<li>Created a superuser (admin) and verified admin site - login credentials (endpoint /admin)</li>
-<li>Cryptoinvestor can register using Username, Email Address, Password(endpoint /register). Added functionality to allow user to register if they do not have login info</li>
-<li>Added functionality to allow user to login with Username/Password(enpoint /login)</li>
-<li>Added functionality to show content only available to users that are authenticated</li>
-</ul>
-<li>What will you do in the next 24 hours?</li>
-<ul>
-<li>Deploy the site to a droplet on digital ocean and create the kanban board with user stories and developer tasks.</li>
-</ul>
-<li>Are there any impediments?</li>
-<ul>
-<li>None</li>
+<li> 
+Raul: Complete tests and add to the repo as well as make changes in the code to make sure the data from the API is displayed in the templates.
+</li>
+<li>
+Rachel: Test the pipeline to make sure that it will continue to run without breaking. Update the readme with current sprint documentation.
+</li>
+<li>
+James: Make sure that the API directory and app directory fit together correctly.
+</li>
+<li>
+Gabe: Working to structure market cap of cryptocurrency
+</li>
+<li>
+Folake: Will be continuing to work on ticket FT-30 to develop the design in the frontend
+</li>
 </ul>
 
-<br/>
-James:
-<li>What did you do in the last 24 hours?</li>
-<ul>
-<li> I created tests for our API implementation and developed a function following TDD procedures. </li>
-</ul>  
-<li>What will you do in the next 24 hours?</li>
-<ul>
-<li> I will continue to build out API price functionality and integrate with our front end. </li>
-</ul>  
-<li>Are there any impediments?</li>
-<ul>
-<li>As the product owner, I need to adjust our backlog items to include front end HTML/CSS for a homepage, at minimum</li>
-</ul>
+### Are there any impediments?
 
-<br/>
-Gabe:
-<li>What did you do in the last 24 hours?</li>
 <ul>
-<li> I wrote unit tests for user registration and login; I tested and merged our API app for requesting data from glassnode.com </li>
-</ul>  
-<li>What will you do in the next 24 hours?</li>
-<ul>
-<li> I will participate in sprint planning and get started on my next assigned task (probably building out the API more) </li>
-</ul>  
-<li>Are there any impediments?</li>
-<ul>
-<li>No impediments at the moment</li>
-</ul>
-
-<br/>
-Folake:
-<li>What did you do in the last 24 hours?</li>
-<ul>
-<li> I have not worked on sprint tasks in the last 24 hours. </li>
-</ul>  
-<li>What will you do in the next 24 hours?</li>
-<ul>
-<li> I do not plan on working on sprint tasks in the next 24 hours. </li>
-</ul>  
-<li>Are there any impediments?</li>
-<ul>
-<li>None</li>
+<li> 
+Raul: Had an issue with working with the levels for the API. 
+</li>
+<li>
+Rachel: Had an issue initially with the pipeline consistently breaking but was able to resolve after seeing that secrets were needed to be added into the .yaml files and also in github actions under settings 
+</li>
+<li>
+James: Not finding modules to test the code. 
+</li>
+<li>
+Gabe: Blocked by how exactly we will structure the backend of the site. 
+</li>
+<li>
+Folake: Was blocked by the CSS not loading but together as a team we were able to unblock the issue allowing CSS to display correctly.
+</li>
 </ul>
 
 
-### Pair Programming Proof
-Gabe and James had a productive session on Wednesday!
-![teamProgramming](https://user-images.githubusercontent.com/65990764/141510468-8f29d1cc-a047-4557-b4aa-b717a7e9288b.JPG)
+### Update of Sprint Board and Burndown Chart
 
-### Sprint Review - Stakeholder Present
-Jack owns cryptocurrency, we showed him our product increment from the first sprint. Due to his feedback, we chose to add a homepage HTML/CSS item to our backlog, because it was clear we didn't have that built yet.
-We completed zero of ten story points. In our next sprint, we plan on communicating more, and working on more specific product backlog items, that better align to our goals.
-![Capture](https://user-images.githubusercontent.com/65990764/141836922-f7178234-2d76-430f-ac58-045ca7e550b5.JPG)
+### Pair and Mob Programming
 
-### Sprint Retrospective - Resulting Action Item
-![image](https://user-images.githubusercontent.com/65990764/141837677-38f4ed75-1bbc-40f1-b0fe-e915d6a54fe6.png)
+Our productive mob programming session on Tuesday, Nov. 23rd with James, Rachel, Gabe, and Raul.
+![image](https://user-images.githubusercontent.com/64049629/143620114-dc742fab-3f06-44f6-bdf5-27256f9f1693.png)
 
-### Working Software for Product Increment
-We made our site publicly accessible. Please visit: [Fortune Teller](http://143.198.157.232:8080/)
+Folake and Rachel met for Pair programming on Thursday, Nov. 25th to work on the front end. 
+![image](https://user-images.githubusercontent.com/64049629/143627694-7a5028c9-9e60-474b-93f3-56d959d3b9bb.png)
 
-### Building Test First (Examples of 10 miro-scale unit tests that pass)
-Credit to Raul for these passing tests.
-![image](https://user-images.githubusercontent.com/65990764/141837913-c085e46a-6da3-4d8d-83f3-ead908379329.png)
+### Test-Driven Development
 
-Credit to Gabe for these passing tests.
-![image](https://user-images.githubusercontent.com/14114255/141843850-83cb26db-ea5d-4cfc-b5a1-0f41140207a4.png)
-![image](https://user-images.githubusercontent.com/65990764/141842960-2ae47461-b494-43da-84af-9d517995c3c7.png)
+### Sprint Review
 
-Credit to James for these passing tests.
-![image](https://user-images.githubusercontent.com/65990764/141842920-60fc0610-d3c2-48e2-9f52-92b91cce08b5.png)
+### Sprint Retrospective with Improvement Plan for next sprint
+
+### Continuous Integration
+<ul>
+  <li>
+    A Continuous Integration system running:
+  </li>
+  <li>
+    Work is only done on the main/trunk/master branch:
+  </li>
+  <li>
+    The CI system automatically builds code when it is pushed to main:
+  </li>
+  <li>
+    The CI system automatically executes tests:
+  </li>
+  <li>
+    Evidence that the CI system exists and behaves properly:
+  </li>
+</ul>
+
+### Continuous Deployment
+<ul>
+  <li>
+    You have a Continuous Delivery system running:
+  </li>
+   <li>
+    When the build is green the CD system deploys code to production:
+  </li>
+  <li>
+    When the build is red then production is not altered:
+  </li>
+  <li>
+    The CD system executes tests in production:
+  </li>
+  <li>
+    Evidence that the CD system exists and behaves properly:
+  </li>
+</ul>
 
 
