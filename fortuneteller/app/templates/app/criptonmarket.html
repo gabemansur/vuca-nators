@@ -17,6 +17,14 @@
       table {
         margin-top: 50px;
       }
+
+      .change-positive {
+          color: green;
+      }
+
+      .change-negative {
+          color: red;
+      }
     </style>
   </head>
  <body>
@@ -45,7 +53,15 @@
                 <td> {{ forloop.counter }}</td>
                   <td><img src="{{currency.id|iconimage}}" alt="" width="16"> {{ currency.name }} </td>
                   <td>{{ currency.quote.USD.market_cap| formatcurrency}}</td>
-                  <td>{{ currency.quote.USD.price| formatcurrency}}</td>
+                  <td>
+                      {% if currency.quote.USD.percent_change_24h < 0 %}
+                        <span class="change-negative">
+                      {% elif currency.quote.USD.percent_change_24h > 0 %}
+                        <span class="change-positive">
+                      {% endif %}
+                            {{ currency.quote.USD.price| formatcurrency}}
+                        </span>
+                  </td>
                   <td>{{ currency.quote.USD.volume_24h| formatcurrency}}</td>
                   <td>{{ currency.circulating_supply| formatcurrency}}</td>
                   <td>{{ currency.quote.USD.volume_change_24h| percent }}</td>
