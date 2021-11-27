@@ -152,7 +152,41 @@ Folake and Rachel met for Pair programming on Thursday, Nov. 25th to work on the
 ### Sprint Retrospective with Improvement Plan for next sprint
 
 ### Continuous Integration
+<ul>
+  <li>
+    A Continuous Integration system running:
+  </li>
+  <li>
+    Work is only done on the main/trunk/master branch:
+  </li>
+  <li>
+    The CI system automatically builds code when it is pushed to main:
+  </li>
+  <li>
+    The CI system automatically executes tests:
+  </li>
+  <li>
+    Evidence that the CI system exists and behaves properly:
+  </li>
+</ul>
 
 ### Continuous Deployment
+<ul>
+  <li>
+    You have a Continuous Delivery system running:
+  </li>
+   <li>
+    When the build is green the CD system deploys code to production:
+  </li>
+  <li>
+    When the build is red then production is not altered:
+  </li>
+  <li>
+    The CD system executes tests in production:
+  </li>
+  <li>
+    Evidence that the CD system exists and behaves properly:
+  </li>
+</ul>
 
 
