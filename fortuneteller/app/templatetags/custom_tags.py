@@ -16,5 +16,5 @@ def percent(value):
 @register.filter()
 def iconimage(value):
     iconimagename = 'https://s2.coinmarketcap.com/static/img/coins/64x64/'+str(value) +'.png'
-    return (iconimagename )
+    return (iconimagename)
 
