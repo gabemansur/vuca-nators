@@ -19,7 +19,9 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Run tests
         run: |
-          export LC_ALL="en_US.UTF-8" & export LC_CTYPE="en_US.UTF-8" & sudo dpkg-reconfigure locales
+          export LC_ALL=en_US.UTF-8
+          export LC_CTYPE=en_US.UTF-8
+          sudo dpkg-reconfigure locales
           pip install -r requirements.txt
           cd fortuneteller
           python3 manage.py test
