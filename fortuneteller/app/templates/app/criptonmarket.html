@@ -64,7 +64,15 @@
                   </td>
                   <td>{{ currency.quote.USD.volume_24h| formatcurrency}}</td>
                   <td>{{ currency.circulating_supply| formatcurrency}}</td>
-                  <td>{{ currency.quote.USD.volume_change_24h| percent }}</td>
+                  <td>
+                    {% if currency.quote.USD.percent_change_24h < 0 %}
+                      <span class="change-negative">
+                    {% elif currency.quote.USD.percent_change_24h > 0 %}  
+                      <span class="change-positive">
+                    {% endif %}
+                      {{ currency.quote.USD.percent_change_24h| percent}}
+                      </span>
+                  </td>
               </tr>
             {% endfor %}
             </tbody>
