@@ -178,7 +178,9 @@ Mob Programming on Nov. 27th at 6pm
     The CI system automatically executes tests:https://github.com/gabemansur/vuca-nators/actions/runs/1513591623
   </li>
 </ul>
+
 ![image](https://user-images.githubusercontent.com/64049629/143787298-82bc336c-05dd-4494-a9a8-5571d53d974d.png)
+
 <ul>
   <li>
     You have a Continuous Delivery system running: The full CD file is here: https://github.com/gabemansur/vuca-nators/actions/runs/1513591625/workflow
@@ -193,10 +195,15 @@ Mob Programming on Nov. 27th at 6pm
     Evidence that the CI and CD system exists and behaves properly:
   </li>  
 </ul>
+
 ![image](https://user-images.githubusercontent.com/64049629/143787261-b83fc30c-2b1e-437c-9d95-baa94b0bcd7b.png)
+
 ![image](https://user-images.githubusercontent.com/64049629/143787298-82bc336c-05dd-4494-a9a8-5571d53d974d.png)
+
 ![image](https://user-images.githubusercontent.com/64049629/143787322-62cd802e-8150-400a-90d2-ee6bb9b0532e.png)
+
 ![image](https://user-images.githubusercontent.com/64049629/143787351-649169e4-6896-46f1-97a4-5a1dba71542d.png)
+
 ![image](https://user-images.githubusercontent.com/64049629/143787378-11bbf29f-d225-43bd-b30b-32733693e821.png)
 
 
