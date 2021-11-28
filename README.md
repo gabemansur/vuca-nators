@@ -68,15 +68,30 @@ Value this sprint will bring:
 Jira Product Backlog: [JIRA-URL](https://vuca-nators.atlassian.net/jira/software/projects/FT/boards/1/backlog)
 
 ### Forecast
+In this sprint we forcasted 13 story points. The rationale for this forecast was that we had a lot of user stories carried over from the previous sprint but these user stories had started to be worked on already. We added only 3 more story points with the assumption that the majority or all of the work from the previous sprint would get completed.
+<ul>
+  <li>
+    We pulled stories into our sprint 2 backlog and only developers participated in this activity. (Based on our scrum team roles becuase our team has everyone in the role of a developer this included the whole team). 
+  <li/>
+<ul/>
+Our sprint backlog where the aggregate size of the stories does not exceed our forecast(the size of each backlog item is less than half the forecast velocity for this sprint): https://vuca-nators.atlassian.net/jira/software/projects/FT/boards/1/backlog  
 
+We decomposed user stories into developer tasks:
+
+![image](https://user-images.githubusercontent.com/64049629/143790423-7058affa-fd9f-45b6-a441-3fb166b60318.png)
+  
 ### Sprint Burdown Chart
 
 An initial view of our sprint burdown chart
 ![image](https://user-images.githubusercontent.com/64049629/143729109-ded25b36-d463-45bd-81c9-4538e06725f8.png)
 
-
-The initial view of our Sprint Board
+    
+The initial view of our Sprint Board/Kanban Board before it was updated: 
 ![image](https://user-images.githubusercontent.com/64049629/143729267-eaae767e-1705-4e18-82e6-543689025a5b.png)
+
+
+URL of the current board(end of this sprint):https://vuca-nators.atlassian.net/jira/software/projects/FT/boards/1
+  
 
 
 ### Daily Scrums(Sample)
@@ -166,6 +181,7 @@ Mob Programming on Nov. 27th at 6pm
 ### Test-Driven Development
 
 
+  
 ### Continuous Integration and Continuous Deployment 
 <ul>
   <li>
@@ -207,7 +223,77 @@ Mob Programming on Nov. 27th at 6pm
 ![image](https://user-images.githubusercontent.com/64049629/143787378-11bbf29f-d225-43bd-b30b-32733693e821.png)
 
 
+### Product Increment
+The URL of the working software: http://127.0.0.1:8000/ 
+  
 ### Sprint Review
+We conducted a sprint review on Nov. 28th at 7pm.
 
 ### Sprint Retrospective with Improvement Plan for next sprint
+  
+We conducted a sprint retrospective on Nov. 28th at 7pm, right after the sprint review. (Please note we left the sprint open on Jira and did not select "Complete Sprint" for grading purposes.)
+As a team we identified at least one helpful change to improve our effectiveness together. We created a concrete plan/activty to make this change for the next sprint. To accomplish this plan each team member listed answers for the following to pinpoint impediments needed to be corrected for the next sprint:
+  
+#### What went well this sprint?
+  
+<ul>
+  <li> 
+    Raul:  
+  </li>
+  <li>
+    Rachel: 
+  </li>
+  <li>
+    James: 
+  </li>
+  <li>
+    Gabe: 
+  </li>
+  <li>
+    Folake: 
+  </li>
+</ul>
+  
+#### What did not go well this sprint?
+  
+  
+  <ul>
+  <li> 
+    Raul:  
+  </li>
+  <li>
+    Rachel: 
+  </li>
+  <li>
+    James: 
+  </li>
+  <li>
+    Gabe: 
+  </li>
+  <li>
+    Folake: 
+  </li>
+</ul>
+  
+#### Ideas/Improvements: How could we do things differently?
+  
+  <ul>
+  <li> 
+    Raul:  
+  </li>
+  <li>
+    Rachel: 
+  </li>
+  <li>
+    James: 
+  </li>
+  <li>
+    Gabe: 
+  </li>
+  <li>
+    Folake: 
+  </li>
+</ul>
+  
+Our sprint retrospective action item added to the top of the product backlog for sprint 3:
 
