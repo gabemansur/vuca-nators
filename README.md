@@ -162,7 +162,7 @@ Folake: Was blocked by the CSS not loading but together as a team we were able t
 An update of our sprint 2 burndown chart
 ![image](https://user-images.githubusercontent.com/64049629/143729028-203697fc-1e6e-4cbf-9628-802b84ca40a1.png)
 
-An update of our Sprint board
+An update of our Sprint board/Kanban board
 ![image](https://user-images.githubusercontent.com/64049629/143729456-aef1ee47-2834-48b4-8ca7-c40438c4370e.png)
 
 ### Pair and Mob Programming
