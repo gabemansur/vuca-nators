@@ -4,6 +4,8 @@ on:
   workflow_run:
     workflows:
       - CI by Rachel Wallace
+    types:
+      - completed
   push:
     branches:
       - main
