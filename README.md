@@ -82,7 +82,6 @@ The initial view of our Sprint Board
 ### Daily Scrums(Sample)
 Outcome from Daily Scrum meeting, when we met on Friday, November 19th at 7PM.
 ![image](https://user-images.githubusercontent.com/64049629/143728837-75d74aaf-d103-48a9-8c83-021afcdc3915.png)
-![image](https://user-images.githubusercontent.com/64049629/143728893-bab50550-556a-494d-937d-b7f00662766f.png)
 
 ### What did you do since our last meeting?
 
