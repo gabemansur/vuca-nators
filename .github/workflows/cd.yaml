@@ -1,6 +1,9 @@
 name: CD by Rachel Wallace
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
     types: [closed]
 
