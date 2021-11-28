@@ -70,12 +70,8 @@ Jira Product Backlog: [JIRA-URL](https://vuca-nators.atlassian.net/jira/software
 ### Forecast
 In this sprint we forcasted 13 story points. The rationale for this forecast was that we had a lot of user stories carried over from the previous sprint but these user stories had started to be worked on already. We added only 3 more story points with the assumption that the majority or all of the work from the previous sprint would get completed.
 
-<ul>
-  <li>
-    We pulled stories into our sprint 2 backlog and only developers participated in this activity. (Based on our scrum team roles becuase our team has everyone in the role of a developer this included the whole team). 
-  <li/>
-<ul/>
-  
+We pulled stories into our sprint 2 backlog and only developers participated in this activity. (Based on our scrum team roles becuase our team has everyone in the role of a developer this included the whole team). 
+
 Our sprint backlog where the aggregate size of the stories does not exceed our forecast(the size of each backlog item is less than half the forecast velocity for this sprint): https://vuca-nators.atlassian.net/jira/software/projects/FT/boards/1/backlog  
 
 We decomposed user stories into developer tasks:
