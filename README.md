@@ -71,8 +71,18 @@ Jira Product Backlog: [JIRA-URL](https://vuca-nators.atlassian.net/jira/software
 
 ### Sprint Burdown Chart
 
+A view of our sprint burdown chart at the beginning of Sprint 2
+![image](https://user-images.githubusercontent.com/64049629/143729109-ded25b36-d463-45bd-81c9-4538e06725f8.png)
+
+
+Our Sprint Board before work started
+![image](https://user-images.githubusercontent.com/64049629/143729267-eaae767e-1705-4e18-82e6-543689025a5b.png)
+
+
 ### Daily Scrums(Sample)
 Outcome from Daily Scrum meeting, when we met on Friday, November 19th at 7PM.
+![image](https://user-images.githubusercontent.com/64049629/143728837-75d74aaf-d103-48a9-8c83-021afcdc3915.png)
+![image](https://user-images.githubusercontent.com/64049629/143728893-bab50550-556a-494d-937d-b7f00662766f.png)
 
 ### What did you do since our last meeting?
 
@@ -81,7 +91,7 @@ Outcome from Daily Scrum meeting, when we met on Friday, November 19th at 7PM.
 Raul: Working on the code from ticket FT-27 to remove the static data in the front end. Fixing the JSON to get it working properly.
 </li>
 <li>
-Rachel: Worked on setting up the CI/CD pipeline with test, build and deploy. In the ci.yaml file test was included and in the cd.yaml file is build and deploy.
+Rachel: Worked on setting up the CI/CD pipeline with test, build and deploy in the workflow .yaml files.
 </li>
 <li>
 James: Created two different things in Figma, layout of homepage design and two different logos. Moved tests to the right directory.
@@ -137,6 +147,12 @@ Folake: Was blocked by the CSS not loading but together as a team we were able t
 
 ### Update of Sprint Board and Burndown Chart
 
+An update of our sprint burndown chart towards the middle/end of sprint 2
+![image](https://user-images.githubusercontent.com/64049629/143729028-203697fc-1e6e-4cbf-9628-802b84ca40a1.png)
+
+An update of our Sprint board
+![image](https://user-images.githubusercontent.com/64049629/143729456-aef1ee47-2834-48b4-8ca7-c40438c4370e.png)
+
 ### Pair and Mob Programming
 
 Our productive mob programming session on Tuesday, Nov. 23rd with James, Rachel, Gabe, and Raul.
@@ -144,6 +160,9 @@ Our productive mob programming session on Tuesday, Nov. 23rd with James, Rachel,
 
 Folake and Rachel met for Pair programming on Thursday, Nov. 25th to work on the front end. 
 ![image](https://user-images.githubusercontent.com/64049629/143627694-7a5028c9-9e60-474b-93f3-56d959d3b9bb.png)
+
+Mob Programming on Nov. 27th at 6pm
+![image](https://user-images.githubusercontent.com/64049629/143728956-53b39cd0-b87d-45db-97eb-f598738dbc69.png)
 
 ### Test-Driven Development
 
