@@ -71,11 +71,11 @@ Jira Product Backlog: [JIRA-URL](https://vuca-nators.atlassian.net/jira/software
 
 ### Sprint Burdown Chart
 
-A view of our sprint burdown chart at the beginning of Sprint 2
+An initial view of our sprint burdown chart
 ![image](https://user-images.githubusercontent.com/64049629/143729109-ded25b36-d463-45bd-81c9-4538e06725f8.png)
 
 
-Our Sprint Board before work started
+The initial view of our Sprint Board
 ![image](https://user-images.githubusercontent.com/64049629/143729267-eaae767e-1705-4e18-82e6-543689025a5b.png)
 
 
