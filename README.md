@@ -165,46 +165,42 @@ Mob Programming on Nov. 27th at 6pm
 
 ### Test-Driven Development
 
+
+### Continuous Integration and Continuous Deployment 
+<ul>
+  <li>
+    A Continuous Integration system running: The full CI file is here: https://github.com/gabemansur/vuca-nators/actions/runs/1513591623/workflow
+  </li>
+  <li>
+    The CI workflow is triggered everytime code is pushed to either the main/trunk/master branch or for all branches that are not main.
+  </li>
+  <li>
+    The CI system automatically executes tests:https://github.com/gabemansur/vuca-nators/actions/runs/1513591623
+  </li>
+</ul>
+![image](https://user-images.githubusercontent.com/64049629/143787298-82bc336c-05dd-4494-a9a8-5571d53d974d.png)
+<ul>
+  <li>
+    You have a Continuous Delivery system running: The full CD file is here: https://github.com/gabemansur/vuca-nators/actions/runs/1513591625/workflow
+  </li>
+   <li>
+    When the build is green the CD system deploys code to production: https://github.com/gabemansur/vuca-nators/actions/runs/1513607021
+  </li>
+  <li>
+    The production is not altered: The build will stop and not deploy to production if the tests do not pass: https://github.com/gabemansur/vuca-nators/actions/runs/1513527306. If the build passes the the deploy will continue running. 
+  </li>
+  <li>
+    Evidence that the CI and CD system exists and behaves properly:
+  </li>  
+</ul>
+![image](https://user-images.githubusercontent.com/64049629/143787261-b83fc30c-2b1e-437c-9d95-baa94b0bcd7b.png)
+![image](https://user-images.githubusercontent.com/64049629/143787298-82bc336c-05dd-4494-a9a8-5571d53d974d.png)
+![image](https://user-images.githubusercontent.com/64049629/143787322-62cd802e-8150-400a-90d2-ee6bb9b0532e.png)
+![image](https://user-images.githubusercontent.com/64049629/143787351-649169e4-6896-46f1-97a4-5a1dba71542d.png)
+![image](https://user-images.githubusercontent.com/64049629/143787378-11bbf29f-d225-43bd-b30b-32733693e821.png)
+
+
 ### Sprint Review
 
 ### Sprint Retrospective with Improvement Plan for next sprint
-
-### Continuous Integration
-<ul>
-  <li>
-    A Continuous Integration system running:
-  </li>
-  <li>
-    Work is only done on the main/trunk/master branch:
-  </li>
-  <li>
-    The CI system automatically builds code when it is pushed to main:
-  </li>
-  <li>
-    The CI system automatically executes tests:
-  </li>
-  <li>
-    Evidence that the CI system exists and behaves properly:
-  </li>
-</ul>
-
-### Continuous Deployment
-<ul>
-  <li>
-    You have a Continuous Delivery system running:
-  </li>
-   <li>
-    When the build is green the CD system deploys code to production:
-  </li>
-  <li>
-    When the build is red then production is not altered:
-  </li>
-  <li>
-    The CD system executes tests in production:
-  </li>
-  <li>
-    Evidence that the CD system exists and behaves properly:
-  </li>
-</ul>
-
 
