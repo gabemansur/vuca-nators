@@ -1,6 +1,9 @@
 name: CD by Rachel Wallace
 
 on:
+  workflow_run:
+    workflows:
+      - CI by Rachel Wallace
   push:
     branches:
       - main
