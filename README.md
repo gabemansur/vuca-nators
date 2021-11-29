@@ -240,16 +240,22 @@ https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/tests
 
 ### Product Increment
 The URL of the working software: http://143.198.157.232:8080
+
+Evidence that our product increment is working software:
+![image](https://user-images.githubusercontent.com/64049629/143924348-5ca66703-b60a-4c68-9e10-0c90dd00336f.png)
   
 ### Sprint Review
 We conducted a sprint review on Nov. 28th at 7pm.
 
 Evidence of our sprint review with our stakeholder present:
-(I, James did not save the screenshot with our stakeholder. Here is textual evidence.)
+(Here is textual evidence.)
 Slack:
 ![image](https://user-images.githubusercontent.com/65990764/143920685-47df35b4-28b4-47bd-b40a-0afbf99b596d.png)
 Our Stakeholder, Jack, confirming attendance:
 ![Screenshot_20211129-131131_Message+ 4116](https://user-images.githubusercontent.com/65990764/143921223-c3335826-c5e7-40d2-af82-e701cda6afcf.jpg)
+
+Meeting with the stakeholder:
+![image](https://user-images.githubusercontent.com/64049629/143924471-1f4bf951-a52a-4f94-bb4e-030e031cfafb.png)
 
 
 ### Sprint Retrospective with Improvement Plan for next sprint
@@ -265,7 +271,7 @@ As a team we identified at least one helpful change to improve our effectiveness
   
 <ul>
   <li> 
-    Raul: (From Meeting) I'm very happy to have built a working chart that updates with live crypto data.
+    Raul: I'm very happy to have built a working chart that updates with live crypto data.
   </li>
   <li>
     Rachel: We accomplished more user stories this sprint. Our communication as a team has improved a lot as well.   
@@ -286,7 +292,7 @@ As a team we identified at least one helpful change to improve our effectiveness
   
   <ul>
   <li> 
-    Raul:  (From Meeting) We tried to integrate the crypto market chart to the homepage too late, and it didn't work at first.
+    Raul: We tried to integrate the crypto market chart to the homepage too late, and it didn't work at first.
   </li>
   <li>
     Rachel: We did not focus as much on code integrations and functionality of different parts.  
@@ -306,7 +312,7 @@ As a team we identified at least one helpful change to improve our effectiveness
   
   <ul>
   <li> 
-    Raul: (From Meeting) I want us to continue working together more, we are the VUCA-Nators!!
+    Raul: I want us to continue working together more, we are the VUCA-Nators!!
   </li>
   <li>
     Rachel: More mob programming or communication on code as its being built that way the whole team is aware of all the moving parts. 
