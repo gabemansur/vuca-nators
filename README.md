@@ -165,6 +165,9 @@ An update of our sprint 2 burndown chart
 An update of our Sprint board/Kanban board
 ![image](https://user-images.githubusercontent.com/64049629/143729456-aef1ee47-2834-48b4-8ca7-c40438c4370e.png)
 
+Our sprint 2 burndown chart at the end of the sprint:
+![image](https://user-images.githubusercontent.com/64049629/143924847-05c347b2-b971-44c3-aad4-62a81f3390d6.png)
+
 ### Pair and Mob Programming
 
 Our productive mob programming session on Tuesday, Nov. 23rd with James, Rachel, Gabe, and Raul.
