@@ -168,7 +168,6 @@ An update of our Sprint board/Kanban board
 ### Pair and Mob Programming
 
 Our productive mob programming session on Tuesday, Nov. 23rd with James, Rachel, Gabe, and Raul.
-![image](https://user-images.githubusercontent.com/64049629/143620114-dc742fab-3f06-44f6-bdf5-27256f9f1693.png)
 ![GroupProgramming](https://user-images.githubusercontent.com/65990764/143922094-d99ffa85-7cc5-4a01-85e9-ceeb58d5f9d4.JPG)
 
 Folake and Rachel met for Pair programming on Thursday, Nov. 25th to work on the front end. 
@@ -179,30 +178,7 @@ Mob Programming on Nov. 27th at 6pm
 
 ### Test-Driven Development
 
-Our work currently has 20 unit tests and they all pass: (Evidence showing that they pass) 
-![image](https://user-images.githubusercontent.com/64049629/143921214-4185bad4-4a11-43ef-b450-df60c25f38a7.png)
 
-
-URLs to all of the tests in the vuca-nators repository:
-
-<li>
-  https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/tests.py
-<li/>
-<li>
- https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/tests_api.py
-<li/>
-<li>
- https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_views.py
-<li/>
-<li>
- https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_urls.py
-<li/>
-<li>
- https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_models.py
-<li/>
-<li>
-  https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_forms.py
-<li/>
   
 ### Continuous Integration and Continuous Deployment 
 <ul>
@@ -272,7 +248,7 @@ As a team we identified at least one helpful change to improve our effectiveness
   
 <ul>
   <li> 
-    Raul:  
+    Raul: (From Meeting) I'm very happy to have built a working chart that updates with live crypto data.
   </li>
   <li>
     Rachel: We accomplished more user stories this sprint. Our communication as a team has improved a lot as well.   
@@ -293,7 +269,7 @@ As a team we identified at least one helpful change to improve our effectiveness
   
   <ul>
   <li> 
-    Raul:  
+    Raul:  (From Meeting) We tried to integrate the crypto market chart to the homepage too late, and it didn't work at first.
   </li>
   <li>
     Rachel: We did not focus as much on code integrations and functionality of different parts.  
@@ -313,7 +289,7 @@ As a team we identified at least one helpful change to improve our effectiveness
   
   <ul>
   <li> 
-    Raul:  
+    Raul: (From Meeting) I want us to continue working together more, we are the VUCA-Nators!!
   </li>
   <li>
     Rachel: More mob programming or communication on code as its being built that way the whole team is aware of all the moving parts. 
