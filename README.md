@@ -336,5 +336,5 @@ As a team we identified at least one helpful change to improve our effectiveness
   </li>
 </ul>
   
-Our sprint retrospective action item added to the top of the product backlog for sprint 3: We aim to share a crystal clear product vision and integrate our work proactively.
+Our sprint retrospective action item added to the top of the product backlog for sprint 3: We aim to share a crystal clear product vision and integrate our work proactively. Our concrete plan consists of: (1) Discussing product vision in detail during sprint planning (2) Building working skeleton code for new features together, before building the new functionality.
 
