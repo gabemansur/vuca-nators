@@ -179,7 +179,30 @@ Mob Programming on Nov. 27th at 6pm
 
 ### Test-Driven Development
 
+Our work currently has 20 unit tests and they all pass: (Evidence showing that they pass) 
+![image](https://user-images.githubusercontent.com/64049629/143921214-4185bad4-4a11-43ef-b450-df60c25f38a7.png)
 
+
+URLs to all of the tests in the vuca-nators repository:
+
+<li>
+  https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/tests.py
+<li/>
+<li>
+ https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/tests_api.py
+<li/>
+<li>
+ https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_views.py
+<li/>
+<li>
+ https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_urls.py
+<li/>
+<li>
+ https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_models.py
+<li/>
+<li>
+  https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_forms.py
+<li/>
   
 ### Continuous Integration and Continuous Deployment 
 <ul>
