@@ -169,6 +169,7 @@ An update of our Sprint board/Kanban board
 
 Our productive mob programming session on Tuesday, Nov. 23rd with James, Rachel, Gabe, and Raul.
 ![image](https://user-images.githubusercontent.com/64049629/143620114-dc742fab-3f06-44f6-bdf5-27256f9f1693.png)
+![GroupProgramming](https://user-images.githubusercontent.com/65990764/143922094-d99ffa85-7cc5-4a01-85e9-ceeb58d5f9d4.JPG)
 
 Folake and Rachel met for Pair programming on Thursday, Nov. 25th to work on the front end. 
 ![image](https://user-images.githubusercontent.com/64049629/143627694-7a5028c9-9e60-474b-93f3-56d959d3b9bb.png)
@@ -178,33 +179,7 @@ Mob Programming on Nov. 27th at 6pm
 
 ### Test-Driven Development
 
-Our work currently has 20 unit tests and they all pass: (Evidence showing that they pass) 
-![image](https://user-images.githubusercontent.com/64049629/143921214-4185bad4-4a11-43ef-b450-df60c25f38a7.png)
 
-
-URLs to all of the tests in the vuca-nators repository:
-
-<ul>
-  <li>
-    https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/tests.py
-  <li/>
-  <li>
-   https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/tests_api.py
-  <li/>
-  <li>
-   https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_views.py
-  <li/>
-  <li>
-   https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_urls.py
-  <li/>
-  <li>
-   https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_models.py
-  <li/>
-  <li>
-    https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_forms.py
-  <li/>
-<ul/>
-  
   
 ### Continuous Integration and Continuous Deployment 
 <ul>
@@ -254,7 +229,7 @@ The URL of the working software: http://143.198.157.232:8080
 We conducted a sprint review on Nov. 28th at 7pm.
 
 Evidence of our sprint review with our stakeholder present:
-(I, James lost the screenshot captured during the meeting. Here is textual evidence.)
+(I, James did not save the screenshot with our stakeholder. Here is textual evidence.)
 Slack:
 ![image](https://user-images.githubusercontent.com/65990764/143920685-47df35b4-28b4-47bd-b40a-0afbf99b596d.png)
 Our Stakeholder, Jack, confirming attendance:
@@ -331,5 +306,5 @@ As a team we identified at least one helpful change to improve our effectiveness
   </li>
 </ul>
   
-Our sprint retrospective action item added to the top of the product backlog for sprint 3: We aim to share a crystal clear product vision and integrate our work this sprint successfully
+Our sprint retrospective action item added to the top of the product backlog for sprint 3: We aim to share a crystal clear product vision and integrate our work proactively.
 
