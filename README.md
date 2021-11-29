@@ -252,7 +252,7 @@ As a team we identified at least one helpful change to improve our effectiveness
     James: Our communication and problem solving was much stronger than last sprint! Really good!
   </li>
   <li>
-    Gabe: 
+    Gabe: Communication and overall organization was much better this sprint. This was a big weakness last sprint and I think we did a good job recognizing that and making corrections. We also completed more story points than the previous sprint.
   </li>
   <li>
     Folake: This sprint I was able to complete what I had proposed to do. I was able to finish the front end portion of the index page with the requirements/requests made by my group members. I think we also met more times this week, and did both pair and mob programming which helped to facilitate in overall more efficient project growth.
@@ -273,7 +273,7 @@ As a team we identified at least one helpful change to improve our effectiveness
     James: We struggled to integrate elements, and started integrating them a bit late. 
   </li>
   <li>
-    Gabe: 
+    Gabe: While I think we did a good job communicating and problem-solving, actually integrating the separate pieces we were working on was a bit of a challenge. 
   </li>
   <li>
     Folake: I was not able to integrate the API/back end portion of the index page onto the site. 
@@ -293,7 +293,7 @@ As a team we identified at least one helpful change to improve our effectiveness
     James: I would like to schedule mob programming for integrating our work early on, then build the functionality out in a working frame. (We tended to build out functions first then try to integrate them in). 
   </li>
   <li>
-    Gabe: 
+    Gabe: I think having some higher-level discussions about how the various elements of our product will work together, and having a clearer shared vision of the end product are important. As others mentioned, mob programming was really helpful this sprint and we should definitely aim for more of that. 
   </li>
   <li>
     Folake: Collectively, I think sticking to our backlog helped us this week better flesh out what tasks needed to be done. Additionally, it helped to administer accountability. 
