@@ -3,12 +3,7 @@
 <!DOCTYPE html>
 {% load custom_tags %}
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+{% block script %}
     <link rel="icon" href="https://rmotr.com/static/favicons/apple-icon-60x60.c69b596ccabe.png">
     <title>Fortune-Teller Cripton Market</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
@@ -29,9 +24,8 @@
           color: red;
       }
     </style>
-  </head>
-
-  <body>
+{% endblock %}
+{% block body %}
     <nav class="navbar navbar-expand-md">
       <a class="navbar-brand" href="#"> <img src="https://rmotr.com/static/favicons/apple-icon-60x60.c69b596ccabe.png" alt="" width="32"> </a>
     </nav>
@@ -83,8 +77,6 @@
           </table>
       </div>
     </main>
-   </body>
-</html>
-
+{% endblock %}
 
     

@@ -9,7 +9,15 @@ from django.urls import reverse
 from .models import User
 
 def index(request):
-    return render(request, "app/index.html", {})
+    local_currency = 'USD'
+    local_symbol = '$'
+    api_key = 'fdccb806-f56e-46f5-88c6-8f45b3bd2c86'
+    headers = {'X-CMC_PRO_API_KEY': api_key}
+    url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?convert=' + local_currency
+    response = requests.get(url, headers=headers)
+    results = response.json()
+    data = results["data"]
+    return render(request, "app/index.html", {'response': data})
 
 def login_view(request):
     if request.method == "POST":
