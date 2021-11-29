@@ -60,11 +60,11 @@ All of the information for FortuneTeller Sprint 1 can be found here: (https://gi
 
 ### Sprint Planning
 Planning was held Monday, November 15th at 6PM.
-<br/>
+
 **Sprint Goal:** Have a website with a working homepage (both front-end and back-end) that displays current cryptocurrency data.
-<br/>
+
 Value this sprint will bring: This sprint will be valuable becuase we have a much better understanding of the amount of work we can deliver compared to the last sprint. We also forecasted a lot better this sprint compared to the last and our sprint goal is more attainable.  
-<br/>
+
 Jira Product Backlog: [JIRA-URL](https://vuca-nators.atlassian.net/jira/software/projects/FT/boards/1/backlog)
 
 ### Forecast
