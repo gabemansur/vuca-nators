@@ -228,6 +228,11 @@ The URL of the working software: http://143.198.157.232:8080
 We conducted a sprint review on Nov. 28th at 7pm.
 
 Evidence of our sprint review with our stakeholder present:
+(I, James lost the screenshot captured during the meeting. Here is textual evidence.)
+Slack:
+![image](https://user-images.githubusercontent.com/65990764/143920685-47df35b4-28b4-47bd-b40a-0afbf99b596d.png)
+Our Stakeholder, Jack, confirming attendance:
+![Screenshot_20211129-131131_Message+ 4116](https://user-images.githubusercontent.com/65990764/143921223-c3335826-c5e7-40d2-af82-e701cda6afcf.jpg)
 
 
 ### Sprint Retrospective with Improvement Plan for next sprint
@@ -300,5 +305,5 @@ As a team we identified at least one helpful change to improve our effectiveness
   </li>
 </ul>
   
-Our sprint retrospective action item added to the top of the product backlog for sprint 3:
+Our sprint retrospective action item added to the top of the product backlog for sprint 3: We aim to share a crystal clear product vision and integrate our work this sprint successfully
 
