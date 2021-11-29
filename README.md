@@ -61,9 +61,9 @@ All of the information for FortuneTeller Sprint 1 can be found here: (https://gi
 ### Sprint Planning
 Planning was held Monday, November 15th at 6PM.
 <br/>
-Sprint Goal: Have a website with a working homepage (both front-end and back-end) that displays current cryptocurrency data.
+**Sprint Goal:** Have a website with a working homepage (both front-end and back-end) that displays current cryptocurrency data.
 <br/>
-Value this sprint will bring:
+Value this sprint will bring: This sprint will be valuable becuase we have a much better understanding of the amount of work we can deliver compared to the last sprint. We also forecasted a lot better this sprint compared to the last and our sprint goal is more attainable.  
 <br/>
 Jira Product Backlog: [JIRA-URL](https://vuca-nators.atlassian.net/jira/software/projects/FT/boards/1/backlog)
 
@@ -227,9 +227,16 @@ The URL of the working software: http://143.198.157.232:8080
 ### Sprint Review
 We conducted a sprint review on Nov. 28th at 7pm.
 
+Evidence of our sprint review with our stakeholder present:
+
+
 ### Sprint Retrospective with Improvement Plan for next sprint
   
-We conducted a sprint retrospective on Nov. 28th at 7pm, right after the sprint review. (Please note we left the sprint open on Jira and did not select "Complete Sprint" for grading purposes.)
+We conducted a sprint retrospective on Nov. 28th at 7pm, right after the sprint review. (Please note we left the sprint open on Jira and did not select "Complete Sprint" for grading purposes.) Evidence of our sprint retrospective team meeting:
+
+![image](https://user-images.githubusercontent.com/64049629/143826542-e895cad2-2ac4-492a-98fc-2b2431597230.png)
+
+
 As a team we identified at least one helpful change to improve our effectiveness together. We created a concrete plan/activty to make this change for the next sprint. To accomplish this plan each team member listed answers for the following to pinpoint impediments needed to be corrected for the next sprint:
   
 #### What went well this sprint?
@@ -239,16 +246,16 @@ As a team we identified at least one helpful change to improve our effectiveness
     Raul:  
   </li>
   <li>
-    Rachel: 
+    Rachel: We accomplished more user stories this sprint. Our communication as a team has improved a lot as well.   
   </li>
   <li>
-    James: 
+    James: Our communication and problem solving was much stronger than last sprint! Really good!
   </li>
   <li>
     Gabe: 
   </li>
   <li>
-    Folake: 
+    Folake: This sprint I was able to complete what I had proposed to do. I was able to finish the front end portion of the index page with the requirements/requests made by my group members. I think we also met more times this week, and did both pair and mob programming which helped to facilitate in overall more efficient project growth.
   </li>
 </ul>
   
@@ -260,16 +267,16 @@ As a team we identified at least one helpful change to improve our effectiveness
     Raul:  
   </li>
   <li>
-    Rachel: 
+    Rachel: We did not focus as much on code integrations and functionality of different parts.  
   </li>
   <li>
-    James: 
+    James: We struggled to integrate elements, and started integrating them a bit late. 
   </li>
   <li>
     Gabe: 
   </li>
   <li>
-    Folake: 
+    Folake: I was not able to integrate the API/back end portion of the index page onto the site. 
   </li>
 </ul>
   
@@ -280,16 +287,16 @@ As a team we identified at least one helpful change to improve our effectiveness
     Raul:  
   </li>
   <li>
-    Rachel: 
+    Rachel: More mob programming or communication on code as its being built that way the whole team is aware of all the moving parts. 
   </li>
   <li>
-    James: 
+    James: I would like to schedule mob programming for integrating our work early on, then build the functionality out in a working frame. (We tended to build out functions first then try to integrate them in). 
   </li>
   <li>
     Gabe: 
   </li>
   <li>
-    Folake: 
+    Folake: Collectively, I think sticking to our backlog helped us this week better flesh out what tasks needed to be done. Additionally, it helped to administer accountability. 
   </li>
 </ul>
   
