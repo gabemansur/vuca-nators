@@ -1,5 +1,5 @@
 from django.test import TestCase
-#from models import User #not importing
+from app.models import User #not importing
 from api.views import getPrice
 
 # Create your tests here.
@@ -12,6 +12,10 @@ class TestCalls(TestCase):
         response = self.client.get('/register')
         self.assertEqual(response.status_code, 200)
 
-    def test_price_checker(self):
+    def test_criptonmarket_found(self):
+        response = self.client.get('/criptonmarket')
+        self.assertEqual(response.status_code, 200)
+
+    """def test_price_checker(self):
         getPrice1 = getPrice("BTC")
-        print(getPrice1)
+        print(getPrice1)"""
