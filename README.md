@@ -159,6 +159,8 @@ Folake: Was blocked by the CSS not loading but together as a team we were able t
 
 ### Update of Sprint Board and Burndown Chart
 
+Burndown chart link: https://vuca-nators.atlassian.net/jira/software/projects/FT/boards/1/reports/burndown
+
 An update of our sprint 2 burndown chart
 ![image](https://user-images.githubusercontent.com/64049629/143729028-203697fc-1e6e-4cbf-9628-802b84ca40a1.png)
 
