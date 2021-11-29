@@ -16,6 +16,10 @@ class TestCalls(TestCase):
         response = self.client.get('/criptonmarket')
         self.assertEqual(response.status_code, 200)
 
+    def test_index_found(self):
+        response = self.client.get('/')
+        self.assertEqual(response.status_code, 200)
+
     """def test_price_checker(self):
         getPrice1 = getPrice("BTC")
         print(getPrice1)"""
