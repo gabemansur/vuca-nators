@@ -1,7 +1,7 @@
 {% load static %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="background">
     <head>
         <title>{% block title %}Fortune Teller{% endblock %}</title>
         <link href="{% static 'app/homepage.css' %}" rel="stylesheet" type="text/css" >
@@ -15,7 +15,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Fortune Teller</a>
+            <a class="navbar-brand-header" href="#">Fortune Teller</a>
 
             <div>
               <ul class="navbar-nav mr-auto">
@@ -31,10 +31,10 @@
                     </li>
                 {% else %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'login' %}">Log In</a>
+                        <a class="nav-link-login" href="{% url 'login' %}">Log In</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'register' %}">Register</a>
+                        <a class="nav-link-register" href="{% url 'register' %}">Register</a>
                     </li>
                 {% endif %}
               </ul>
@@ -42,6 +42,7 @@
           </nav>
         <div class="body">
             {% block body %}
+
             {% endblock %}
         </div>
     </body>
