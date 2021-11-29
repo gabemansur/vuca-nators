@@ -260,6 +260,11 @@ Our Stakeholder, Jack, confirming attendance:
 Meeting with the stakeholder:
 ![image](https://user-images.githubusercontent.com/64049629/143924471-1f4bf951-a52a-4f94-bb4e-030e031cfafb.png)
 
+We showed the stakeholder our working product and the only feedback they suggested was adding in a way for cryptocurrency investors to customize or filter their currency. We have added in this feedback into our next sprint and revised our product backlog as needed. 
+
+Presenting to our stakeholder:
+![image](https://user-images.githubusercontent.com/64049629/143925102-aa04fea6-540c-41a7-a499-3edbaba04bfd.png)
+
 
 ### Sprint Retrospective with Improvement Plan for next sprint
   
