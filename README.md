@@ -58,6 +58,29 @@ All of the information for FortuneTeller Sprint 1 can be found here: (https://gi
 
 ## Project Part 3: SPRINT 2
 
+All of the information for FortuneTeller Sprint 2 can be found here: (https://github.com/gabemansur/vuca-nators/blob/main/Sprint2README.md) 
+
+## Project Part 4: SPRINT 3
+
+### Sprint Planning
+Planning was held Wednesday, December 1st at 8PM.
+
+**Sprint Goal:** To create a simple, functional front end for Fortune Teller, with more user interaction, that is presentable.
+
+Value this sprint will bring:
+
+### Forecast
+
+
+### Sprint Burdown Chart
+
+
+### Daily Scrums(Sample)
+
+
+
+## Project Part 3: SPRINT 2
+
 ### Sprint Planning
 Planning was held Monday, November 15th at 6PM.
 
