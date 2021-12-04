@@ -22,7 +22,7 @@
             <div class="grey"><h4>Gray Line = Predicted</h4></div>
         </div>
         <div>
-      <h2 id="header1">Fortune-Teller Cripton Market</h2>
+      <h2 id="header1">Fortune-Teller Crypto Market Stats</h2>
         <table class="table table-striped">
             <thead>
               <tr>
@@ -58,7 +58,7 @@
                     {% elif currency.quote.USD.percent_change_24h > 0 %}
                       <span class="change-positive">
                     {% endif %}
-                      {{ currency.quote.USD.percent_change_24h| percent}}
+                      {{ currency.quote.USD.percent_change_24h | percent }} <!-- Changed format from "| percent" to none-->
                       </span>
                   </td>
               </tr>

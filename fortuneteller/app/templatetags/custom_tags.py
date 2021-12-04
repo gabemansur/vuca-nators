@@ -12,7 +12,8 @@ def formatcurrency(value):
 
 @register.filter()
 def percent(value):
-    return format(value, ".2%")
+    adjustedValue = value / 100.0
+    return format(adjustedValue, ".2%")
 
 @register.filter()
 def iconimage(value):
