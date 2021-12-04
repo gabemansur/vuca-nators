@@ -19,6 +19,9 @@ def index(request):
     data = results["data"]
     return render(request, "app/index.html", {'response': data})
 
+def wathclist(request):
+    return render(request, "app/watchlist.html")
+
 def login_view(request):
     if request.method == "POST":
         # Attempt to sign user in
@@ -66,6 +69,7 @@ def register(request):
 def logout_view(request):
     logout(request)
     return HttpResponseRedirect(reverse("index"))
+
 
 def cripton_market(request):
     local_currency ='USD'
