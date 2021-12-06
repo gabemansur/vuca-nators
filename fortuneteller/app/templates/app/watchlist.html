@@ -1,24 +1,98 @@
 {% extends "app/layout.html" %}
 {% load custom_tags %}
+{% load static %}
+
 {% block body %}
-        <body class="background">
+    <body class="background">
         <nav class="navbar navbar-expand-md">
             <a class="navbar-brand" href="#"> <img src="https://rmotr.com/static/favicons/apple-icon-60x60.c69b596ccabe.png" alt="" width="32"> </a>
         </nav>
-    <div>
+
+    <main role="main" class="container">
       <div class="starter-template">
           <div class="color">
            <div class="img">
             <img class = "image1" src="../../static/app/FortuneTellerLogo.png" alt="FortuneTeller Logo"/>
            </div>
            <div class="title">
-               <h1>Fortune Teller</h1></div>
+               <h1>Fortune Teller</h1>
+           </div>
           </div>
-          </div>
-        </div>
-        <div>
-            </div>
-        </body>
-        <h1 class="watchlist"> Your Watchlist</h1>
+      </div>
 
+    <div>
+      <h2 id="header1">Watchlist</h2>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                {% if user.is_authenticated %}
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Market Cap</th>
+                    <th>Price</th>
+                    <th>Volume (24h)</th>
+                    <th>Circulating supply</th>
+                    <th>Change (24h)</th>
+                    <th>Watchlist</th>
+                {% else %}
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Market Cap</th>
+                  <th>Price</th>
+                  <th>Volume (24h)</th>
+                  <th>Circulating supply</th>
+                  <th>Change (24h)</th>
+                {% endif %}
+              </tr>
+            </thead>
+            <tbody>
+              {% for currency in response %}
+              <tr id="{{ currency.symbol }}">
+                <td> {{ forloop.counter }}</td>
+                  <td><img src="{{currency.id|iconimage}}" alt="" width="16"> {{ currency.name }} </td>
+                  <td>{{ currency.quote.USD.market_cap| formatcurrency}}</td>
+                  <td>
+                      {% if currency.quote.USD.percent_change_24h < 0 %}
+                        <span class="change-negative">
+                      {% elif currency.quote.USD.percent_change_24h > 0 %}
+                        <span class="change-positive">
+                      {% endif %}
+                            {{ currency.quote.USD.price| formatcurrency}}
+                        </span>
+                  </td>
+                  <td>{{ currency.quote.USD.volume_24h| formatcurrency}}</td>
+                  <td>{{ currency.circulating_supply| formatcurrency}}</td>
+                  <td>
+                    {% if currency.quote.USD.percent_change_24h < 0 %}
+                      <span class="change-negative">
+                    {% elif currency.quote.USD.percent_change_24h > 0 %}
+                      <span class="change-positive">
+                    {% endif %}
+                      {{ currency.quote.USD.percent_change_24h | percent }} <!-- Changed format from "| percent" to none-->
+                      </span>
+                  </td>
+                  {% if user.is_authenticated %}
+                      <td>
+                            <button id="{{ currency.symbol }}" class="watchlistitem btn btn-sm {% if currency.symbol in watchlist %}btn-danger{% else %}btn-success{% endif %}">
+                                {% if currency.symbol in watchlist %}
+                                    Remove
+                                {% else %}
+                                    Add
+                                {% endif %}
+                            </button>
+                      </td>
+                  {% else %}
+
+                  {% endif %}
+              </tr>
+            {% endfor %}
+            </tbody>
+          </table>
+        </div>
+    </main>
+   </body>
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'app/watchlist.js' %}"></script>
 {% endblock %}

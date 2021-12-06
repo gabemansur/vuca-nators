@@ -1,7 +1,9 @@
 {% extends "app/layout.html" %}
 {% load custom_tags %}
+{% load static %}
+
 {% block body %}
-        <body class="background">
+    <body class="background">
         <nav class="navbar navbar-expand-md">
             <a class="navbar-brand" href="#"> <img src="https://rmotr.com/static/favicons/apple-icon-60x60.c69b596ccabe.png" alt="" width="32"> </a>
         </nav>
@@ -26,13 +28,24 @@
         <table class="table table-striped">
             <thead>
               <tr>
-                <th>#</th>
-                <th>Name</th>
-                <th>Market Cap</th>
-                <th>Price</th>
-                <th>Volume (24h)</th>
-                <th>Circulating supply</th>
-                <th>Change (24h)</th>
+                {% if user.is_authenticated %}
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Market Cap</th>
+                    <th>Price</th>
+                    <th>Volume (24h)</th>
+                    <th>Circulating supply</th>
+                    <th>Change (24h)</th>
+                    <th>Watchlist</th>
+                {% else %}
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Market Cap</th>
+                  <th>Price</th>
+                  <th>Volume (24h)</th>
+                  <th>Circulating supply</th>
+                  <th>Change (24h)</th>
+                {% endif %}
               </tr>
             </thead>
             <tbody>
@@ -61,6 +74,19 @@
                       {{ currency.quote.USD.percent_change_24h | percent }} <!-- Changed format from "| percent" to none-->
                       </span>
                   </td>
+                  {% if user.is_authenticated %}
+                      <td>
+                            <button id="{{ currency.symbol }}" class="updatewatchlist btn btn-sm {% if currency.symbol in watchlist %}btn-danger{% else %}btn-success{% endif %}">
+                                {% if currency.symbol in watchlist %}
+                                    Remove
+                                {% else %}
+                                    Add
+                                {% endif %}
+                            </button>
+                      </td>
+                  {% else %}
+
+                  {% endif %}
               </tr>
             {% endfor %}
             </tbody>
@@ -68,6 +94,10 @@
         </div>
     </main>
    </body>
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'app/watchlist.js' %}"></script>
 {% endblock %}
 
 

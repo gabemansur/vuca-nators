@@ -6,9 +6,14 @@ from django.db import IntegrityError
 from django.http import HttpResponseRedirect, response
 from django.shortcuts import render
 from django.urls import reverse
-from .models import User
+from .models import User, UserWatchlist
+
+from django.http import JsonResponse
+from django.contrib.auth.decorators import login_required
+from django.views.decorators.csrf import csrf_exempt
 
 def index(request):
+
     local_currency = 'USD'
     local_symbol = '$'
     api_key = 'fdccb806-f56e-46f5-88c6-8f45b3bd2c86'
@@ -17,10 +22,73 @@ def index(request):
     response = requests.get(url, headers=headers)
     results = response.json()
     data = results["data"]
-    return render(request, "app/index.html", {'response': data})
 
-def wathclist(request):
-    return render(request, "app/watchlist.html")
+    watchlist_arr = []
+    if request.user.is_authenticated:
+        try:
+            # get watchlist by logged in user
+            watchlist_arr = str(UserWatchlist.objects.get(user=request.user)).split(',')
+        except UserWatchlist.DoesNotExist:
+            # get or create watchlist by logged in user
+            watchlist_arr = str(UserWatchlist.objects.get_or_create(user=request.user)).split(',')
+
+    return render(request, "app/index.html", {'response': data, 'watchlist': watchlist_arr})
+
+
+def watchlist(request):
+    local_currency = 'USD'
+    local_symbol = '$'
+    api_key = 'fdccb806-f56e-46f5-88c6-8f45b3bd2c86'
+    headers = {'X-CMC_PRO_API_KEY': api_key}
+    url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?convert=' + local_currency
+    response = requests.get(url, headers=headers)
+    results = response.json()
+    data = results["data"]
+
+    watchlist_arr = str(UserWatchlist.objects.get(user=request.user)).split(',')
+
+    watchlist_data = []
+    for crypto_object in data:
+        if crypto_object["symbol"] in watchlist_arr:
+            watchlist_data.append(crypto_object)
+
+
+    return render(request, "app/watchlist.html", {'response': watchlist_data, 'watchlist': watchlist_arr})
+
+@csrf_exempt
+@login_required
+def updatewatchlist(request):
+    added = True
+    if request.method == "POST":
+        data = json.loads(request.body)
+        symbol = data['symbol']
+
+        # get watchlist by logged in user
+        user_watchlist = UserWatchlist.objects.get(user=request.user)
+
+        # convert user watchlist to array of symbols
+        watchlist_arr = str(user_watchlist.watchlist).split(',')
+
+        # check if symbol exists; true - remove, false - add
+        if symbol in watchlist_arr:
+            added = False
+            watchlist_arr.remove(symbol)
+        else:
+            watchlist_arr.append(symbol)
+
+        # array to string to prep for storing in db
+        updated_watchlist_str = ",".join(watchlist_arr)
+
+        # update user watchlist db object and save
+        user_watchlist.watchlist = updated_watchlist_str
+        user_watchlist.save()
+
+
+    return JsonResponse({
+        "updated_watchlist": updated_watchlist_str,
+        "added": added
+    }, safe=False)
+
 
 def login_view(request):
     if request.method == "POST":
@@ -39,6 +107,7 @@ def login_view(request):
             })
     else:
         return render(request, "app/login.html")
+
 
 def register(request):
     if request.method == "POST":
@@ -65,6 +134,7 @@ def register(request):
         return HttpResponseRedirect(reverse("index"))
     else:
         return render(request, "app/register.html")
+
 
 def logout_view(request):
     logout(request)
