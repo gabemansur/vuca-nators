@@ -7,6 +7,8 @@
         <nav class="navbar navbar-expand-md">
             <a class="navbar-brand" href="#"> <img src="https://rmotr.com/static/favicons/apple-icon-60x60.c69b596ccabe.png" alt="" width="32"> </a>
         </nav>
+        {% block script %}
+    <script src="{% static 'app/watchlist.js' %}"></script>
 
     <main role="main" class="container">
       <div class="starter-template">
@@ -93,6 +95,4 @@
    </body>
 {% endblock %}
 
-{% block script %}
-    <script src="{% static 'app/watchlist.js' %}"></script>
 {% endblock %}
