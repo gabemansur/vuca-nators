@@ -22,26 +22,26 @@
 
     <div>
       <h2 class="row justify-content-center">Watchlist</h2>
-        <table class="table table-striped">
+        <table class="table table-striped table-bordered-header tablesorter">
             <thead>
               <tr>
                 {% if user.is_authenticated %}
-                    <th>#</th>
+                    <th class="nosort">#</th>
                     <th>Name</th>
                     <th>Market Cap</th>
-                    <th>Price</th>
-                    <th>Volume (24h)</th>
-                    <th>Circulating supply</th>
+                    <th class="nosort">Price</th>
+                    <th class="nosort">Volume (24h)</th>
+                    <th class="nosort">Circulating supply</th>
                     <th>Change (24h)</th>
-                    <th>Watchlist</th>
+                    <th class="nosort">Watchlist</th>
                 {% else %}
-                  <th>#</th>
-                  <th>Name</th>
-                  <th>Market Cap</th>
-                  <th>Price</th>
-                  <th>Volume (24h)</th>
-                  <th>Circulating supply</th>
-                  <th>Change (24h)</th>
+                  <th class="nosort">#</th>
+                    <th>Name</th>
+                    <th>Market Cap</th>
+                    <th class="nosort">Price</th>
+                    <th class="nosort">Volume (24h)</th>
+                    <th class="nosort">Circulating supply</th>
+                    <th>Change (24h)</th>
                 {% endif %}
               </tr>
             </thead>
@@ -95,5 +95,17 @@
 
 {% block script %}
     <script src="{% static 'app/watchlist.js' %}"></script>
-
+    <script>
+        $(function() {
+            let options = {
+                theme : 'bootstrap',
+                headers: {
+                  '.nosort' : {
+                    sorter: false
+                    }
+                }
+            };
+            $(".tablesorter").tablesorter(options);
+        });
+    </script>
 {% endblock %}
