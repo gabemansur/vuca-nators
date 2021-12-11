@@ -92,6 +92,18 @@ body{
 
 }
 
+.change-positive {
+    color: green;
+}
+
+.change-negative {
+    color: red;
+}
+
 .watchlist {
     text-align: center;
+}
+
+.table-bordered-header th {
+    border: 1px solid #dee2e6;
 }
