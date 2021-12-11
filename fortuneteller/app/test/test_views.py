@@ -1,9 +1,11 @@
 from django.test import TestCase
-from app.models import User #not importing
-from api.views import getPrice
+from ..models import User
+from ..models import UserWatchlist
+import json
 
 # Create your tests here.
 class TestCalls(TestCase):
+
     def test_login_found(self):
         response = self.client.get('/login')
         self.assertEqual(response.status_code, 200)
@@ -19,6 +21,20 @@ class TestCalls(TestCase):
     def test_index_found(self):
         response = self.client.get('/')
         self.assertEqual(response.status_code, 200)
+
+    def test_watchlist_found(self):
+        self.user = User.objects.create_user(username='testuser', password='12345')
+        self.client.login(username='testuser', password='12345')
+        UserWatchlist.objects.create(user=self.user, watchlist="test")
+        response = self.client.get('/watchlist')
+        self.assertEqual(response.status_code, 200)
+
+    def test_updatewatchlist_found(self):
+        self.user = User.objects.create_user(username='testuser', password='12345')
+        self.client.login(username='testuser', password='12345')
+        UserWatchlist.objects.create(user=self.user, watchlist="test")
+        params = json.dumps({"symbol": "BTC"})
+        response = self.client.post('/updatewatchlist', content_type='application/json', data=params)
 
     """def test_price_checker(self):
         getPrice1 = getPrice("BTC")
