@@ -15,28 +15,23 @@
 .img{
     width: 40%;
     float: left;
-    background-color: lightgrey;
+    background-color: white;
     margin-top: 30px;
     padding-top: 15px;
     padding-bottom: 21px;
-    border-left: solid black 4px;
-    border-bottom: solid black 4px;
-    border-top:solid black 4px;
 }
 
 
 .title{
     width: 60%;
     float: right;
+    font-size: 600px;
     color: #dcaa67;
-    background-color: lightgrey;
+    background-color: white;
     padding-right: 300px;
     margin-top: 30px;
     padding-top: 45px;
     padding-bottom: 25px;
-    border-bottom: solid black 4px;
-    border-top:solid black 4px;
-    border-right:solid black 4px;
 }
 
 body{
