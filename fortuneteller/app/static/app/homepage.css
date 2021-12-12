@@ -7,6 +7,11 @@
     border: solid black 4px;
 }
 
+.scrollable{
+    overflow-y: scroll;
+    height: 500px;
+}
+
 .img{
     width: 40%;
     float: left;
