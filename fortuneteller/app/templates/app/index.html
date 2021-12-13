@@ -1,7 +1,122 @@
 {% extends "app/layout.html" %}
+{% load custom_tags %}
+{% load static %}
 
 {% block body %}
-    {% if user.is_authenticated %}
-        <h3>Logged in as {{ user.username }}</h3>
-    {% endif %}
+    <body class="background">
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="#"> <img src="https://rmotr.com/static/favicons/apple-icon-60x60.c69b596ccabe.png" alt="" width="32"> </a>
+        </nav>
+
+    <main role="main" class="container">
+      <div class="starter-template">
+          <div class="color">
+           <div class="img">
+            <img class = "image1" src="../../static/app/FortuneTellerLogo.png" alt="FortuneTeller Logo"/>
+           </div>
+           <div class="title">
+               <h1>Fortune Teller</h1></div>
+          </div>
+          </div>
+        <h2>Bitcoin is currently overvalued</h2>
+        <div class="borders">
+            <img class = "image2" src="../../static/app/download.png" alt="Chart"/>
+           <div class="red"> <h4>Red Line = Real Price</h4></div>
+            <div class="grey"><h4>Gray Line = Predicted</h4></div>
+        </div>
+        <div>
+      <h2 id="header1">Fortune-Teller Crypto Market Stats</h2>
+            <div class="scrollable">
+        <table class="table table-striped table-bordered-header sortable">
+            <thead>
+              <tr>
+                {% if user.is_authenticated %}
+                    <th class="nosort">#</th>
+                    <th>Name</th>
+                    <th>Market Cap</th>
+                    <th class="nosort">Price</th>
+                    <th class="nosort">Volume (24h)</th>
+                    <th class="nosort">Circulating supply</th>
+                    <th>Change (24h)</th>
+                    <th class="nosort">Watchlist</th>
+                {% else %}
+                  <th class="nosort">#</th>
+                    <th>Name</th>
+                    <th>Market Cap</th>
+                    <th class="nosort">Price</th>
+                    <th class="nosort">Volume (24h)</th>
+                    <th class="nosort">Circulating supply</th>
+                    <th>Change (24h)</th>
+                {% endif %}
+              </tr>
+            </thead>
+            <tbody>
+              {% for currency in response %}
+              <tr>
+                <td> {{ forloop.counter }}</td>
+                  <td><img src="{{currency.id|iconimage}}" alt="" width="16"> {{ currency.name }} </td>
+                  <td>{{ currency.quote.USD.market_cap| formatcurrency}}</td>
+                  <td>
+                      {% if currency.quote.USD.percent_change_24h < 0 %}
+                        <span class="change-negative">
+                      {% elif currency.quote.USD.percent_change_24h > 0 %}
+                        <span class="change-positive">
+                      {% endif %}
+                            {{ currency.quote.USD.price| formatcurrency}}
+                        </span>
+                  </td>
+                  <td>{{ currency.quote.USD.volume_24h| formatcurrency}}</td>
+                  <td>{{ currency.circulating_supply| formatcurrency}}</td>
+                  <td>
+                    {% if currency.quote.USD.percent_change_24h < 0 %}
+                      <span class="change-negative">
+                    {% elif currency.quote.USD.percent_change_24h > 0 %}
+                      <span class="change-positive">
+                    {% endif %}
+                      {{ currency.quote.USD.percent_change_24h | percent }} <!-- Changed format from "| percent" to none-->
+                      </span>
+                  </td>
+                  {% if user.is_authenticated %}
+                      <td>
+                            <button id="{{ currency.symbol }}" class="updatewatchlist btn btn-sm {% if currency.symbol in watchlist %}btn-danger{% else %}btn-success{% endif %}">
+                                {% if currency.symbol in watchlist %}
+                                    Remove
+                                {% else %}
+                                    Add
+                                {% endif %}
+                            </button>
+                      </td>
+                  {% else %}
+
+                  {% endif %}
+              </tr>
+            {% endfor %}
+            </tbody>
+          </table>
+                </div>
+        </div>
+    </main>
+   </body>
 {% endblock %}
+
+{% block script %}
+    <script src="{% static 'app/watchlist.js' %}"></script>
+    <script>
+        $(function() {
+            let options = {
+                theme : 'bootstrap',
+                headers: {
+                  '.nosort' : {
+                    sorter: false
+                    }
+                }
+            };
+            $(".tablesorter").tablesorter(options);
+        });
+    </script>
+{% endblock %}
+
+
+
+
+
