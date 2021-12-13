@@ -262,10 +262,11 @@ Evidence that our product increment is working software:
 
 ### Sprint Retrospective with Improvement Plan for next sprint
 
-We conducted a sprint retrospective on Dec. 12th at 5pm. (Please note we left the sprint open on Jira and did not select "Complete Sprint" for grading purposes.) Evidence of our sprint retrospective team meeting:
+We conducted a sprint retrospective on Sunday, Dec. 12th at 5pm. (Please note we left the sprint open on Jira and did not select "Complete Sprint" for grading purposes.) Evidence of our sprint retrospective team meeting:
 ![image](https://user-images.githubusercontent.com/64049629/145774085-9d4e4891-912c-44f3-91fa-09f200811381.png)
 
 As a team we identified at least one helpful change to improve our effectiveness together. We collectively agreed upon an action item that would help us improve and we added it to our product backlog.
+
 Our sprint retrospective action item added to the top of the product backlog for sprint 4: "We aim to integrate at least a portion of the back end, so that we have images generated from it, live, showing data analysis. 
 
 ### Sprint Review Rehearsal - before in class Sprint Review 
