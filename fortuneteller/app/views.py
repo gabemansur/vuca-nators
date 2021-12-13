@@ -1,6 +1,5 @@
 import json
 import requests
-import numpy as np
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 from django.db import IntegrityError
