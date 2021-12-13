@@ -1,5 +1,6 @@
 import json
 import requests
+import numpy as np
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 from django.db import IntegrityError
@@ -175,4 +176,6 @@ def cripton_market(request):
         print('volume 24h :'+volume_24h_string)
         print('volume change :'+ volume_change_24h_string)   """   
     return render(request,'app/criptonmarket.html',{'response':data})
+
+
    
