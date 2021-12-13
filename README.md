@@ -68,11 +68,24 @@ Planning was held Wednesday, December 1st at 8PM.
 **Sprint Goal:** To create a simple, functional front end for Fortune Teller, with more user interaction, that is presentable.
 
 Value this sprint will bring:
+For this sprint we plan to bring value by accomplishing as many of the following user stories as we can.
+FT-4, As a crypto investor, I want to be able to see the percent change of a cryptocurrency so I can understand it’s performance. https://vuca-nators.atlassian.net/browse/FT-4
+FT-30, As a crypto investor, I want to see a screen designed similarly to coinmarketcap.com. https://vuca-nators.atlassian.net/browse/FT-30
+FT-7, As a crypto investor, I want to be able to add and remove cryptocurrencies to my watchlist so that I can quickly view them upon login.https://vuca-nators.atlassian.net/browse/FT-7
+FT-6, As a crypto investor, I want to be able to view and click on my watchlist tab so that I can see my favorite cryptocurrencies.https://vuca-nators.atlassian.net/browse/FT-6
+FT-8, As a crypto investor, I want to be able to sort and filter cryptocurrencies in the list so that I can view the top performing ones. https://vuca-nators.atlassian.net/browse/FT-8
+FT-5, As a crypto investor, I want to be able to view the current price and the predicted price so that I can make informed investment decisions. https://vuca-nators.atlassian.net/browse/FT-5
+
 
 Jira Product Backlog: [JIRA-URL](https://vuca-nators.atlassian.net/jira/software/projects/FT/boards/1/backlog)
 
 ### Forecast
 
+In this sprint we forcasted 14 story points. The rationale for this forecast was that we had completed almost all of our user stories from the previous sprint so we only added 1 more story point to stay within a similar range which based on last sprint worked well for our team. 
+
+We pulled stories into our sprint 3 backlog and only developers participated in this activity. (Based on our scrum team roles becuase our team has everyone in the role of a developer this included the whole team).
+
+Our sprint backlog where the aggregate size of the stories does not exceed our forecast(the size of each backlog item is less than half the forecast velocity for this sprint): https://vuca-nators.atlassian.net/jira/software/projects/FT/boards/1/backlog
 
 ### Sprint Burdown Chart
 
