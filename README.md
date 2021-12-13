@@ -208,7 +208,9 @@ https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_
 
 https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/tests_api.py
 
+### Behaviour-Driven Development 
 
+![image](https://user-images.githubusercontent.com/41925616/145852353-c064a6fc-f4d4-4cb0-8a5e-c31d17154512.png)
 
 ### Continuous Integration and Continuous Deployment 
 
