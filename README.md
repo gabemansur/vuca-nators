@@ -110,7 +110,7 @@ Outcome from Daily Scrum meeting
 
 <ul>
 <li> 
-Raul: 
+Raul: I was reviewing the Jupiter Notebook code and evaluate the conversion to Django Python.
 </li>
 <li>
 Rachel: I worked on FT-47 to add watchlist functionality of adding a watchlist item to the homepage cryptocurrency table
@@ -130,7 +130,7 @@ Folake: Worked on trying to get a scrollbar option or feature on the app for the
 
 <ul>
 <li> 
-Raul: 
+Raul: Transfer Jupyter notebook code to a python file
 </li>
 <li>
 Rachel: Until the next meeting, I will work on FT-48 of removing an item from the watchlist page
@@ -150,7 +150,7 @@ Folake: I will try to figure out how to recreate the html to allow for the scrol
 
 <ul>
 <li> 
-Raul:  
+Raul:  None
 </li>
 <li>
 Rachel: There are some impediments with implementing the watchlist functionality with Javascript. I will be looking into how this will integrate with views.py. 
