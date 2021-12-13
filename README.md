@@ -186,7 +186,6 @@ Our productive mob programming session on Saturday December 4th, with James, Rau
 ![image](https://user-images.githubusercontent.com/64049629/145772404-55136b7e-e8a3-46f1-8f72-b07fd96ed65f.png)
 
 Another productive mob programming session with James, Gabe, Raul, Folake, and Rachel
-![image](https://user-images.githubusercontent.com/64049629/145772436-edfdc98b-328e-4c8c-b403-cb147449b413.png)
 ![mobprogdeco](https://user-images.githubusercontent.com/65990764/145875861-6144ac01-fba1-416f-928f-a77a1cae8077.JPG)
 
 
@@ -281,7 +280,5 @@ Our sprint review is at most 10 minutes long
 We conducted a Sprint Review Rehearsal following the sprint retrospective on Dec. 12.
 Evidence of our sprint review rehearsal:
 ![sprint retro/rev](https://user-images.githubusercontent.com/65990764/145875578-7de49be7-3e7f-4816-b3d3-b63aeff33748.JPG)
-
-![image](https://user-images.githubusercontent.com/64049629/145774085-9d4e4891-912c-44f3-91fa-09f200811381.png)
 
 ![image](https://user-images.githubusercontent.com/64049629/145774339-267ad130-8625-48be-8b45-e930c3617af7.png)
