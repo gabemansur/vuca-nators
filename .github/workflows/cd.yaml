@@ -31,8 +31,6 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
           script: |
-            cd /root/vuca-nators/
-            pip install -r requirements.txt
             cd /root/vuca-nators/fortuneteller
             git pull
             python3 manage.py migrate
