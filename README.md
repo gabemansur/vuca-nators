@@ -187,6 +187,7 @@ Our productive mob programming session on Saturday December 4th, with James, Rau
 
 Another productive mob programming session with James, Gabe, Raul, Folake, and Rachel
 ![image](https://user-images.githubusercontent.com/64049629/145772436-edfdc98b-328e-4c8c-b403-cb147449b413.png)
+![mobprogdeco](https://user-images.githubusercontent.com/65990764/145875861-6144ac01-fba1-416f-928f-a77a1cae8077.JPG)
 
 
 ### Test-Driven Development
@@ -266,6 +267,7 @@ Evidence that our product increment is working software:
 ### Sprint Retrospective with Improvement Plan for next sprint
 
 We conducted a sprint retrospective on Sunday, Dec. 12th at 5pm. (Please note we left the sprint open on Jira and did not select "Complete Sprint" for grading purposes.) Evidence of our sprint retrospective team meeting:
+
 ![image](https://user-images.githubusercontent.com/64049629/145774085-9d4e4891-912c-44f3-91fa-09f200811381.png)
 
 As a team we identified at least one helpful change to improve our effectiveness together. We collectively agreed upon an action item that would help us improve and we added it to our product backlog.
@@ -278,6 +280,8 @@ Our sprint review is at most 10 minutes long
 
 We conducted a Sprint Review Rehearsal following the sprint retrospective on Dec. 12.
 Evidence of our sprint review rehearsal:
+![sprint retro/rev](https://user-images.githubusercontent.com/65990764/145875578-7de49be7-3e7f-4816-b3d3-b63aeff33748.JPG)
+
 ![image](https://user-images.githubusercontent.com/64049629/145774085-9d4e4891-912c-44f3-91fa-09f200811381.png)
 
 ![image](https://user-images.githubusercontent.com/64049629/145774339-267ad130-8625-48be-8b45-e930c3617af7.png)
