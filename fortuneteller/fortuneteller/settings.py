@@ -24,7 +24,6 @@ SECRET_KEY = '=k#$h8^$k&b!25mcvm2y*$g^89ett9_(!nfle=-jghfod_zb3a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
 ALLOWED_HOSTS = ['*']
 
 
@@ -121,3 +120,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Override default login reqquired URL
+LOGIN_URL = '/login'
