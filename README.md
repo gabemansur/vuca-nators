@@ -119,7 +119,7 @@ Rachel: I worked on FT-47 to add watchlist functionality of adding a watchlist i
 James: No work done between Saturday and Tuesday
 </li>
 <li>
-Gabe: 
+Gabe: I did not work on this project since the last meeting
 </li>
 <li>
 Folake: Worked on trying to get a scrollbar option or feature on the app for the table 
@@ -139,7 +139,7 @@ Rachel: Until the next meeting, I will work on FT-48 of removing an item from th
 James: I will create a powerpoint for our presentation, and work with Raul on integrating front end and back end for final presentation 
 </li>
 <li>
-Gabe: 
+Gabe: I will work on FT-8, adding the ability to sort each crypto list.
 </li>
 <li>
 Folake: I will try to figure out how to recreate the html to allow for the scrolling feature
@@ -159,7 +159,7 @@ Rachel: There are some impediments with implementing the watchlist functionality
 James: The scope of the final integration is broad, may exceed the time we have. We discussed a lightweight  default solution, of pre-generating the price prediction image. 
 </li>
 <li>
-Gabe: 
+Gabe: I don't have any impediments.
 </li>
 <li>
 Folake: I had an impediment with trying to decipher the html and needed CSS to bring about scrolling. I plan to do some research on how to do this with the least amount of removal of current working code. 
@@ -191,7 +191,8 @@ Another productive mob programming session with James, Gabe, Raul, Folake, and R
 
 ### Test-Driven Development
 
-Our fortuneteller app has 30 unit tests and they all pass:(evidence of them passing)
+Our fortuneteller app has 30 unit tests and they all pass:
+![image](https://user-images.githubusercontent.com/14114255/145848181-388b77d5-4b0e-4455-b539-27c992c7067c.png)
 
 URLs to all of our unit tests:
 
