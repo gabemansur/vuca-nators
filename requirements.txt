@@ -10,3 +10,5 @@ six==1.16.0
 sqlparse==0.4.2
 urllib3==1.26.7
 requests==2.26.0
+behave-django==1.4.0
+behave==1.2.6
