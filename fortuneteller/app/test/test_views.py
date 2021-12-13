@@ -22,9 +22,17 @@ class TestCalls(TestCase):
         response = self.client.get('/criptonmarket')
         self.assertEqual(response.status_code, 200)
 
+    def test_criptonmarket_content(self):
+        response = self.client.get('/criptonmarket')
+        self.assertContains(response, 'Fortune-Teller Cripton Market')
+
     def test_index_found(self):
         response = self.client.get('/')
         self.assertEqual(response.status_code, 200)
+
+    def test_index_content(self):
+        response = self.client.get('/')
+        self.assertContains(response, 'Fortune Teller')
 
     def test_watchlist_redirect(self):
         # A non-autenticated user will be redirected to login
@@ -39,7 +47,7 @@ class TestCalls(TestCase):
     def test_watchlist_found(self):
         self.user = User.objects.create_user(username='testuser', password='12345')
         self.client.login(username='testuser', password='12345')
-        UserWatchlist.objects.create(user=self.user, watchlist="test")
+        UserWatchlist.objects.create(user=self.user, watchlist="BTC")
         response = self.client.get('/watchlist')
         self.assertEqual(response.status_code, 200)
 
