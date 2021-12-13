@@ -15,15 +15,14 @@
 
 # In[1]:
 
-
-import json
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-import requests
-import datetime
-import statsmodels.api as smt
-import time
+#import json
+#import numpy as np
+#import matplotlib.pyplot as plt
+#import pandas as pd
+#import requests
+#import datetime
+#import statsmodels.api as smt
+#import time
 #stats models OLS tutorial https://www.geeksforgeeks.org/ordinary-least-squares-ols-using-statsmodels/
 #Data analysis packages learned from DGMD S-14 Prof.Jose Ramirez Herran, Harvard Summer School
 
