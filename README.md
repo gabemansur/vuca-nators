@@ -238,14 +238,16 @@ https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/tests
 The URL of the working software: http://143.198.157.232:8080
 
 Evidence that our product increment is working software:
+![image](https://user-images.githubusercontent.com/64049629/145773950-f0bfd27e-2b1b-4742-8f6e-0ca895faa11c.png)
 
 
 ### Sprint Retrospective with Improvement Plan for next sprint
 
 We conducted a sprint retrospective on Dec. 12th at 5pm. (Please note we left the sprint open on Jira and did not select "Complete Sprint" for grading purposes.) Evidence of our sprint retrospective team meeting:
+![image](https://user-images.githubusercontent.com/64049629/145774085-9d4e4891-912c-44f3-91fa-09f200811381.png)
 
-
-Our sprint retrospective action item added to the top of the product backlog for sprint 4:
+As a team we identified at least one helpful change to improve our effectiveness together. We collectively agreed upon an action item that would help us improve and we added it to our product backlog.
+Our sprint retrospective action item added to the top of the product backlog for sprint 4: "We aim to integrate at least a portion of the back end, so that we have images generated from it, live, showing data analysis. 
 
 ### Sprint Review Rehearsal - before in class Sprint Review 
 
@@ -253,4 +255,6 @@ Our sprint review is at most 10 minutes long
 
 We conducted a Sprint Review Rehearsal following the sprint retrospective on Dec. 12.
 Evidence of our sprint review rehearsal:
+![image](https://user-images.githubusercontent.com/64049629/145774085-9d4e4891-912c-44f3-91fa-09f200811381.png)
 
+![image](https://user-images.githubusercontent.com/64049629/145774339-267ad130-8625-48be-8b45-e930c3617af7.png)
