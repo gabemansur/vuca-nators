@@ -68,8 +68,8 @@ Planning was held Wednesday, December 1st at 8PM.
 **Sprint Goal:** To create a simple, functional front end for Fortune Teller, with more user interaction, that is presentable.
 
 Value this sprint will bring:
-
 For this sprint we plan to bring value by accomplishing as many of the following user stories as we can.
+
 FT-4, As a crypto investor, I want to be able to see the percent change of a cryptocurrency so I can understand it’s performance. https://vuca-nators.atlassian.net/browse/FT-4
 
 FT-30, As a crypto investor, I want to see a screen designed similarly to coinmarketcap.com. https://vuca-nators.atlassian.net/browse/FT-30
