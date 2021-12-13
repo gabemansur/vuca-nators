@@ -84,6 +84,9 @@ An initial view of our sprint board/kanban board:
 
 ### Daily Scrums(Sample)
 
+Outcome from Daily Scrum meeting
+![image](https://user-images.githubusercontent.com/64049629/145770799-28acf626-c782-4082-88f1-1beef3da840d.png)
+
 ### What did you do since our last meeting?
 
 <ul>
@@ -91,16 +94,16 @@ An initial view of our sprint board/kanban board:
 Raul: 
 </li>
 <li>
-Rachel: 
+Rachel: I worked on FT-47 to add watchlist functionality of adding a watchlist item to the homepage cryptocurrency table
 </li>
 <li>
-James: 
+James: No work done between Saturday and Tuesday
 </li>
 <li>
 Gabe: 
 </li>
 <li>
-Folake: 
+Folake: Worked on trying to get a scrollbar option or feature on the app for the table 
 </li>
 </ul>
 
@@ -111,16 +114,16 @@ Folake:
 Raul: 
 </li>
 <li>
-Rachel: 
+Rachel: Until the next meeting, I will work on FT-48 of removing an item from the watchlist page
 </li>
 <li>
-James: 
+James: I will create a powerpoint for our presentation, and work with Raul on integrating front end and back end for final presentation 
 </li>
 <li>
 Gabe: 
 </li>
 <li>
-Folake: 
+Folake: I will try to figure out how to recreate the html to allow for the scrolling feature
 </li>
 </ul>
 
@@ -131,39 +134,123 @@ Folake:
 Raul:  
 </li>
 <li>
-Rachel: 
+Rachel: There are some impediments with implementing the watchlist functionality with Javascript. I will be looking into how this will integrate with views.py. 
 </li>
 <li>
-James: 
+James: The scope of the final integration is broad, may exceed the time we have. We discussed a lightweight  default solution, of pre-generating the price prediction image. 
 </li>
 <li>
 Gabe: 
 </li>
 <li>
-Folake: 
+Folake: I had an impediment with trying to decipher the html and needed CSS to bring about scrolling. I plan to do some research on how to do this with the least amount of removal of current working code. 
 </li>
 </ul>
 
 
 ### Update of Sprint Board and Burndown Chart
 
+Burndown chart link: https://vuca-nators.atlassian.net/jira/software/projects/FT/boards/1/reports/burndown 
+
+An update of our Sprint 3 burndown chart
+![Sprint 3 - burndown chart](https://user-images.githubusercontent.com/64049629/145771875-50b7d50c-bf44-4095-bffe-ef71c95f2cd2.png)
+
+An update of our sprint Board/Kanban board
+![Sprint 3 - sprint board](https://user-images.githubusercontent.com/64049629/145771900-d9a6ea99-b8e2-439d-b2f2-c67d1db0c21d.png)
+
+Our Sprint 3 burndown chart at the end of the sprint
+![Sprint Burndown Chart - end of sprint](https://user-images.githubusercontent.com/64049629/145772035-111f853d-6ee8-469e-9fd2-bfc036fe84fe.png)
 
 ### Pair and Mob Programming
+
+Our productive mob programming session on Saturday December 4th, with James, Raul, Folake, and Rachel
+![image](https://user-images.githubusercontent.com/64049629/145772404-55136b7e-e8a3-46f1-8f72-b07fd96ed65f.png)
+
+Another productive mob programming session with James, Gabe, Raul, Folake, and Rachel
+![image](https://user-images.githubusercontent.com/64049629/145772436-edfdc98b-328e-4c8c-b403-cb147449b413.png)
 
 
 ### Test-Driven Development
 
+Our fortuneteller app has 30 unit tests and they all pass:(evidence of them passing)
+
+URLs to all of our unit tests:
+
+https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/tests.py
+
+https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_forms.py
+
+https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_models.py
+
+https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_urls.py
+
+https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/test_views.py
+
+https://github.com/gabemansur/vuca-nators/blob/main/fortuneteller/app/test/tests_api.py
+
+
 
 ### Continuous Integration and Continuous Deployment 
+
+<ul>
+  <li>
+    A Continuous Integration system running: The full CI file is here: https://github.com/gabemansur/vuca-nators/actions/runs/1513591623/workflow
+  </li>
+  <li>
+    The CI workflow is triggered everytime code is pushed to either the main/trunk/master branch or for all branches that are not main.
+  </li>
+  <li>
+    The CI system automatically executes tests:https://github.com/gabemansur/vuca-nators/actions/runs/1513591623
+  </li>
+</ul>
+
+![image](https://user-images.githubusercontent.com/64049629/143787298-82bc336c-05dd-4494-a9a8-5571d53d974d.png)
+
+<ul>
+  <li>
+    You have a Continuous Delivery system running: The full CD file is here: https://github.com/gabemansur/vuca-nators/actions/runs/1513591625/workflow
+  </li>
+   <li>
+    When the build is green the CD system deploys code to production: https://github.com/gabemansur/vuca-nators/actions/runs/1513607021
+  </li>
+  <li>
+    The production is not altered: The build will stop and not deploy to production if the tests do not pass: https://github.com/gabemansur/vuca-nators/actions/runs/1513527306. If the build passes the the deploy will continue running. 
+  </li>
+  <li>
+    Evidence that the CI and CD system exists and behaves properly:
+  </li>  
+</ul>
+
+![image](https://user-images.githubusercontent.com/64049629/143787261-b83fc30c-2b1e-437c-9d95-baa94b0bcd7b.png)
+
+![image](https://user-images.githubusercontent.com/64049629/143787298-82bc336c-05dd-4494-a9a8-5571d53d974d.png)
+
+![image](https://user-images.githubusercontent.com/64049629/143787322-62cd802e-8150-400a-90d2-ee6bb9b0532e.png)
+
+![image](https://user-images.githubusercontent.com/64049629/143787351-649169e4-6896-46f1-97a4-5a1dba71542d.png)
+
+![image](https://user-images.githubusercontent.com/64049629/143787378-11bbf29f-d225-43bd-b30b-32733693e821.png)
+
 
 
 ### Product Increment
 
+The URL of the working software: http://143.198.157.232:8080
+
+Evidence that our product increment is working software:
+
 
 ### Sprint Retrospective with Improvement Plan for next sprint
 
+We conducted a sprint retrospective on Dec. 12th at 5pm. (Please note we left the sprint open on Jira and did not select "Complete Sprint" for grading purposes.) Evidence of our sprint retrospective team meeting:
+
+
+Our sprint retrospective action item added to the top of the product backlog for sprint 4:
 
 ### Sprint Review Rehearsal - before in class Sprint Review 
 
 Our sprint review is at most 10 minutes long
+
+We conducted a Sprint Review Rehearsal following the sprint retrospective on Dec. 12.
+Evidence of our sprint review rehearsal:
 
